@@ -50,7 +50,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Welcome to the IAS DAIICT</h1>
+            <h1 class="mb-5">We cordially invite you to IAS DA-IICT Day celebration</h1>
           </div>
           
         </div>
@@ -86,7 +86,7 @@ The event will be a wonderful <b>opportunity for networking and communication</b
 
           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/gift.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Vanue</h2>
+            <h2>Venue</h2>
             <p class="lead mb-0">The event will be held in Gift City, Gandhinagar. Gujarat International Finance Tec-City (GIFT City) is India's first operational smart city and international financial services center. Various scientific techniques, internal workings of the city and current and future projects in detail will be explained during the tour. </p>
           </div>
         </div>
@@ -132,6 +132,42 @@ The event will be a wonderful <b>opportunity for networking and communication</b
       </div>
     </section>
 
+	
+	<section class="showcase" id="contact">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');">
+			<div id="map" style="width:100%;height:500px"></div>
+		  </div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Contact us</h2>
+            <p class="lead mb-0">Maitreya Patel: <a href="tel:+91-8200406212">+91-8200406212</a></p>
+			<p class="lead mb-0">Pranjali Maru: <a href="tel:+91-9426912731">+91-9426912731</a></p>
+			
+			<br>
+			<br>
+			
+			<ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a href="https://www.facebook.com/ieeeiasdaiict/">
+                  <i class="fa fa-facebook fa-2x fa-fw"></i>
+                </a>
+				</li>
+				<li class="list-inline-item mr-3">
+                <a href="mailto:ias.sb.daiict@gmail.com">
+                  <i class="fa fa-envelope fa-2x fa-fw" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+			
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+	
+	
     <!-- Call to Action -->
     <section class="call-to-action text-white text-center" id="reg">
       <div class="overlay"></div>
@@ -146,7 +182,7 @@ The event will be a wonderful <b>opportunity for networking and communication</b
         </div>
       </div>
     </section>
-
+	
     <!-- Footer -->
     <footer class="footer bg-light">
       <div class="container">
@@ -158,7 +194,7 @@ The event will be a wonderful <b>opportunity for networking and communication</b
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="mailto:ias.sb.daiict@gmail.com">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">&copy; IAS-DAIICT. All Rights Reserved.</p>
@@ -170,6 +206,11 @@ The event will be a wonderful <b>opportunity for networking and communication</b
                   <i class="fa fa-facebook fa-2x fa-fw"></i>
                 </a>
               </li>
+			  <li class="list-inline-item mr-3">
+                <a href="mailto:ias.sb.daiict@gmail.com">
+                  <i class="fa fa-envelope fa-2x fa-fw" aria-hidden="true"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -179,6 +220,25 @@ The event will be a wonderful <b>opportunity for networking and communication</b
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(23.1885,72.6290);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 15};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+  infowindow.open(map,marker);
+}
+</script>
+<script type="text/javascript">
+              $(document).ready(function(){
+          // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+          $('.modal').modal();
+        });
+      </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOQGgJrH7ag6TaCKMyJ_bz0Ylzax1D9Sw&callback=myMap"></script>
 
   </body>
 
