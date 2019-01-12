@@ -11,9 +11,8 @@
 }
 
 .splashFade{
-  animation: splashFadeOut 5s 1;
+  animation: splashFadeOut 3s 1;
   animation-fill-mode: forwards;
-  display: none;
 }
 
 .introHeading{
