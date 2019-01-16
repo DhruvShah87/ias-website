@@ -10,14 +10,18 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" href="css/forindex.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
   <script type="text/javascript" src="js/wow.min.js"></script>
 </head>
 <body style="font-family: Raleway;">
 
 
- <div style="background-color: #212f3c;" style="margin: 0;" >
-    <div class="section" style="height: 50px;">
+  <div class="menuBtnContainer" onclick="hideOrShow()">
+        <i class="fa fa-bars menu" style="color: white"></i>
+  </div>
+  <div style="background-color: #212f3c;" style="margin: 0;" class="topNavyblueDiv">
       <!-- <ul class="center" style="margin: 0;">
         <li style="margin: 0;"><a style="margin: 0;" href="http://www.ieee.org/">IEEE</a></li>
         <li style="margin: 0;"><a style="margin: 0;" href="https://ias.ieee.org/">IAS</a></li>
@@ -25,8 +29,8 @@
         <li style="margin: 0;"><a style="margin: 0;" href="http://standards.ieee.org/"> IEEE Standards </a></li>
         <li style="margin: 0;" class="hide-on-med-and-down"><a style="margin: 0;" href="http://spectrum.ieee.org/"> IEEE Spectrum </a></li>
       </ul> -->
-      <p style="margin: 0;"><a style="margin-left: 2%; margin-top: 10px;" class="white-text" href="http://www.ieee.org/">IEEE</a> | <a class="white-text" href="https://ias.ieee.org/">IAS</a> | <a href="http://ieeexplore.ieee.org/" class="white-text">IEEE Xplore Digital Library</a> | <a class="white-text" href="http://standards.ieee.org/">IEEE Standards</a> | <a class="white-text" href="http://spectrum.ieee.org/">IEEE Spectrum</a></p>
-    </div>
+      <a style="margin-left: 2%; margin-top: 10px;" class="white-text topNavLinks" href="http://www.ieee.org/">IEEE</a> | <a class="white-text topNavLinks" href="https://ias.ieee.org/">IAS</a> | <a href="http://ieeexplore.ieee.org/" class="white-text topNavLinks">IEEE Xplore Digital Library</a> | <a class="white-text topNavLinks" href="http://standards.ieee.org/">IEEE Standards</a> | <a class="white-text topNavLinks" href="http://spectrum.ieee.org/">IEEE Spectrum</a>
+
 
   </div>
 
@@ -436,19 +440,19 @@
         <div class="col l3 s12 wow animated rotateInDownLeft">
           <h5 class="white-text">Site map</h5>
           <ul>
-            <li><a class="white-text hoverable" href="index.html">Home</a></li>
-            <li><a class="white-text hoverable" href="awards.html">Awards</a></li>
-            <li><a class="white-text hoverable" href="conferences.html">Conferences</a></li>
-            <li><a class="white-text hoverable" href="contact.html">Contect us</a></li>
+            <li><a class="hoverable siteMapLink" href="index.html">Home</a></li>
+            <li><a class="hoverable siteMapLink" href="awards.html">Awards</a></li>
+            <li><a class="hoverable siteMapLink" href="conferences.html">Conferences</a></li>
+            <li><a class="hoverable siteMapLink" href="contact.html">Contect us</a></li>
           </ul>
         </div>
         <div class="col l3 s12 wow animated rotateInDownLeft">
           <h5 class="white-text">Useful links</h5>
           <ul>
-            <li><a class="white-text hoverable" href="https://ias.ieee.org/chapters-membership/membership.html">Join IEEE IAS</a></li>
-            <li><a class="white-text hoverable" href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html">Chapter Promotion Programs</a></li>
-            <li><a class="white-text hoverable" href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html">Distinguished Lecturer Program</a></li>
-            <li><a class="white-text hoverable" href="https://ias.ieee.org/">ias.ieee.org</a></li>
+            <li><a class="hoverable usefulLink" href="https://ias.ieee.org/chapters-membership/membership.html">Join IEEE IAS</a></li>
+            <li><a class="hoverable usefulLink" href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html">Chapter Promotion Programs</a></li>
+            <li><a class="hoverable usefulLink" href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html">Distinguished Lecturer Program</a></li>
+            <li><a class="hoverable usefulLink" href="https://ias.ieee.org/">ias.ieee.org</a></li>
           </ul>
         </div>
       </div>
@@ -462,9 +466,11 @@
 
 
 
+
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
+  <script src="js/forindex.js"></script>
   <script src="js/init.js"></script>
 
 
