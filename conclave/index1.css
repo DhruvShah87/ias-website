@@ -1,3 +1,14 @@
+/* Google fonts */
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+html,body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 .anim-type{
   animation: typewriter 4s steps(12) 1s 1 normal both,
               blinkCursor 500ms steps(12) infinite normal;
@@ -5,9 +16,9 @@
 
 .typingSplash{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: black;
-  position: fixed;
+  text-align: center;
 }
 
 .splashFade{
@@ -21,7 +32,7 @@
   font-size: 8rem;
   white-space: nowrap;
   overflow: hidden;
-  font-family: consolas;
+  font-family: 'Anonymous Pro', monospace!important;
 }
 
 .spColor{
@@ -30,61 +41,77 @@
   font-size: 8rem;
   white-space: nowrap;
   overflow: hidden;
-  font-family: consolas;
+  font-family: 'Anonymous Pro', monospace!important;
 }
 
 .splashMessage{
-  width: 26ch;
-  margin: 0 auto;
   font-size: 4rem;
   padding: 70px 0px 0px 0px;
-  position: relative;
-  left: 35px;
+  font-family: 'Anonymous Pro', monospace!important;
 }
 
-.anim1{
-  width: 7ch;
+.animload1{
   margin: 0 auto;
-	animation: type1 2s steps(7),
-			 blinkCursor1 500ms 5;
+  letter-spacing: 2px!important;
+	animation: type1 1.4s steps(7),
+			 blinkCursor1 500ms 3;
 	animation-fill-mode: forwards;
 }
 
-.anim2{
-  width: 0ch;
-  margin:0 auto;
-  animation: type2 0.5s steps(2),
+.anim1{
+  width: 0em!important;
+}
+
+.animload2{
+  margin: 0 auto;
+  letter-spacing: 4px!important;
+  animation: type2 0.3s steps(2),
               blinkCursor2 500ms 2;
   animation-fill-mode: forwards;
   border-right:2px solid #000;
+  animation-delay: 1.5s;
+}
+
+.anim2{
+  width: 0em!important;
+}
+
+.animload3{
+  margin: 0 auto;
+  letter-spacing: 4px!important;
+  animation: type3 0.8s steps(8),
+              blinkCursor3 500ms 3;
+  animation-fill-mode: forwards;
+  border-right: 2px solid #000;
   animation-delay: 2.5s;
 }
 
 .anim3{
-  width: 0ch;
-  margin:0 auto;
-  animation: type3 2s steps(8),
-              blinkCursor3 500ms 5;
-  animation-fill-mode: forwards;
+  width: 0!important;
+}
+
+.animload4{
+  margin: 0 auto;
+  letter-spacing: 2px!important;
+  animation: type4 0.5s steps(4),
+              blinkCursor4 500ms 3;
   border-right: 2px solid #000;
-  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
 }
 
 .anim4{
-  width: 0ch;
-  margin: 0 auto;
-  animation: type4 1s steps(4),
-              blinkCursor4 500ms 4;
-  border-right: 2px solid #000;
-  animation-fill-mode: forwards;
-  animation-delay: 6s;
+  width: 0!important;
+}
+
+.animload5{
+  animation: messageAnim 1s infinite alternate;
+  animation-delay: 5.5s;
 }
 
 .anim5{
-  width: 17ch;
+  text-align: center!important;
   color:black !important;
-  animation: messageAnim 1s infinite alternate;
-  animation-delay: 8s;
 }
 
 
@@ -101,10 +128,10 @@
 /*  Animations  */
 @keyframes type1{
   0%{
-      width: 0ch;
+      width: 0;
   }
   100%{
-    width: 7ch;
+    width: 4em;
   }
 }
 
@@ -113,16 +140,16 @@
     border-right: 2px solid white;
   }
   100%{
-    border-right: 2px solid #000;
+    border-right: 2px solid black;
   }
 }
 
 @keyframes type2 {
   0%{
-    width: 0ch;
+    width: 0;
   }
   100%{
-    width: 2ch;
+    width: 1.2em;
   }
 }
 
@@ -131,16 +158,16 @@
     border-right: 2px solid white;
   }
   100%{
-    border-right: 2px solid #000;
+    border-right: 2px solid black;
   }
 }
 
 @keyframes type3 {
   0%{
-    width:0ch;
+    width:0;
   }
   100%{
-    width: 8ch;
+    width: 4.1em;
   }
 }
 
@@ -149,16 +176,16 @@
     border-right: 2px solid palegreen;
   }
   100%{
-    border-right:2px solid #000;
+    border-right:2px solid black;
   }
 }
 
 @keyframes type4 {
   0%{
-    width: 0ch;
+    width: 0;
   }
   100%{
-    width: 4ch;
+    width: 2.3em;
   }
 }
 
@@ -192,16 +219,40 @@
 /*media querries */
 @media(max-height: 630px) {
   .introHeading{
-    padding: 5% 0%;
-    font-size: 6rem;
+    padding: 10px 0px;
+    letter-spacing: 0px!important;
+    font-size: 8rem;
+  }
+
+  .introHeading{
+    padding: 10px 0px;
+    letter-spacing: 0px!important;
+    font-size: 8rem;
   }
 
   .splashMessage{
-    font-size: 3rem;
-    padding-top: 50px;
+    font-size: 5rem;
+    letter-spacing: 0px!important;
+    padding-top: 35px;
   }
 }
 
-@media (max-width: ) {
+@media (max-width: 480px ) {
+  .introHeading{
+    padding: 10px 0px;
+    font-size: 8rem;
+    letter-spacing: 0px!important;
+  }
 
+  .introHeading{
+    padding: 10px 0px;
+    font-size: 8rem;
+    letter-spacing: 0px!important;
+  }
+
+  .splashMessage{
+    font-size: 5rem;
+    padding-top: 35px;
+    letter-spacing: 0px!important;
+  }
 }
