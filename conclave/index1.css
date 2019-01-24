@@ -9,6 +9,10 @@ html,body{
   margin: 0;
 }
 
+.mainmenulink{
+  font-size: 150%!important;
+}
+
 .anim-type{
   animation: typewriter 4s steps(12) 1s 1 normal both,
               blinkCursor 500ms steps(12) infinite normal;
