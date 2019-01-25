@@ -13,6 +13,29 @@ html,body{
   font-size: 150%!important;
 }
 
+.disclaimer{
+  color: orange!important;
+  font-weight: bold!important;
+}
+
+.cutoff{
+  text-decoration: line-through;
+}
+
+.discountDisclaimer{
+  font-size: 120%!important;
+  font-weight: 150%!important;
+}
+
+.discountedPrice{
+  color: orange!important;
+}
+
+.lastDateOfDiscount{
+  color: orange!important;
+  font-weight: bold;
+}
+
 .anim-type{
   animation: typewriter 4s steps(12) 1s 1 normal both,
               blinkCursor 500ms steps(12) infinite normal;
