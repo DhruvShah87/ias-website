@@ -6,6 +6,9 @@ var anim1=document.querySelector('.anim1');
 var anim2=document.querySelector('.anim2');
 var anim3=document.querySelector('.anim3');
 var anim4=document.querySelector('.anim4');
+var speakerName1=document.querySelector('.speakerName1');
+var speakerName2=document.querySelector('.speakerName2');
+var speakerName3=document.querySelector('.speakerName3');
 
 splash.addEventListener('click', function(){
   introHeading.style.display='none';
@@ -35,3 +38,31 @@ function myFunc(){
   splash.style.display='none';
   postSplash.style.display='block';
 }
+
+// For Nitendra Sir
+
+speakerName1.addEventListener("mouseover", function(){
+  speakerName1.style.color="orange";
+})
+
+speakerName1.addEventListener("mouseout", function(){
+  speakerName1.style.color="#000";
+})
+
+// For Lall Sir
+
+speakerName2.addEventListener("mouseover", function(){
+  speakerName2.style.color="orange";
+})
+
+speakerName2.addEventListener("mouseout", function(){
+  speakerName2.style.color="#000";
+})
+
+speakerName3.addEventListener("mouseover", function(){
+  speakerName3.style.color="orange";
+})
+
+speakerName3.addEventListener("mouseout", function(){
+  speakerName3.style.color="#000";
+})
