@@ -9,6 +9,7 @@ var anim4=document.querySelector('.anim4');
 var speakerName1=document.querySelector('.speakerName1');
 var speakerName2=document.querySelector('.speakerName2');
 var speakerName3=document.querySelector('.speakerName3');
+var speakerName4=document.querySelector('.speakerName4');
 
 splash.addEventListener('click', function(){
   introHeading.style.display='none';
@@ -32,6 +33,10 @@ function func1(){
 
 window.onload=func1;
 
+speakerName1.style.color="#ececec";
+speakerName2.style.color="#ececec";
+speakerName3.style.color="#ececec";
+speakerName4.style.color="#ececec";
 
 
 function myFunc(){
@@ -46,7 +51,7 @@ speakerName1.addEventListener("mouseover", function(){
 })
 
 speakerName1.addEventListener("mouseout", function(){
-  speakerName1.style.color="#000";
+  speakerName1.style.color="#ececec";
 })
 
 // For Lall Sir
@@ -56,13 +61,25 @@ speakerName2.addEventListener("mouseover", function(){
 })
 
 speakerName2.addEventListener("mouseout", function(){
-  speakerName2.style.color="#000";
+  speakerName2.style.color="#ececec";
 })
 
-speakerName3.addEventListener("mouseover", function(){
-  speakerName3.style.color="orange";
+// For KrishnaPrasad Sir
+
+speakerName1.addEventListener("mouseover", function(){
+  speakerName1.style.color="orange";
 })
 
-speakerName3.addEventListener("mouseout", function(){
-  speakerName3.style.color="#000";
+speakerName1.addEventListener("mouseout", function(){
+  speakerName1.style.color="#ececec";
+})
+
+// For Sunil Sir
+
+speakerName1.addEventListener("mouseover", function(){
+  speakerName1.style.color="orange";
+})
+
+speakerName1.addEventListener("mouseout", function(){
+  speakerName1.style.color="#ececec";
 })

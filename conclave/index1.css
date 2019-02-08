@@ -147,13 +147,15 @@ html,body{
 }
 
 
-/* The main page's css */
+/* The main page's css #314455*/
 #speakerSection{
   width: 100%;
+  background: #222222;
 }
 
 #speakerWrapper{
   width: 100%;
+  color: #ececec;
 }
 
 .speakerCard{
@@ -181,16 +183,32 @@ html,body{
   display: block;
   margin-top: 20px;
   text-align: center;
-  color: black;
   transition: 0.4s;
+  color: #ececec;
 }
 
 .speakerName2{
   display: block;
   margin-top: 20px;
   text-align: center;
-  color: black;
   transition: 0.4s;
+  color: #ececec;
+}
+
+.speakerName3{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  transition: 0.4s;
+  color: #ececec;
+}
+
+.speakerName4{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  transition: 0.4s;
+  color: #ececec;
 }
 
 .speakerCardContent{
@@ -199,6 +217,8 @@ html,body{
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  color: #ececec;
+  min-height: 620px!important;
 }
 
 .speakerProfileInfo{
@@ -210,13 +230,14 @@ html,body{
 }
 
 .speakerCardContent:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
 
 
 #speakerHeader{
   text-align: center;
+  color: #ececec;
 }
 
 #speakerIntro{
@@ -225,6 +246,7 @@ html,body{
   font-size: 18px;
   padding: 16px;
   font-weight: 400!important;
+  color: #ececec;
 }
 
 .makeOrange{
