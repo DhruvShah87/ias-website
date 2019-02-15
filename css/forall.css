@@ -1,5 +1,6 @@
 .topNavyblueDiv{
   min-height: 80px!important;
+  color: #ececec!important;
 }
 
 .menuBtnContainer{
@@ -64,8 +65,20 @@
   color:palegreen!important;
 }
 
+.activeLink{
+  background-color: #CDF4C8!important;
+  pointer-events: none;
+  color: #212f3c!important;
+}
+
+
 /* media query */
-@media (max-width: 600px) {
+@media (max-width: 620px) {
+
+    body{
+      font-size: 16px;
+    }
+
   .menuBtnContainer{
 		display: block;
 	}
@@ -78,7 +91,7 @@
 
   .topNavLinks{
     width: 80%;
-    display: block!important;
+    display: none;
     padding: 20px 0px 0px 0px!important;
     margin: 0px auto!important;
   }
