@@ -1,0 +1,39 @@
+.tabs .active{
+  /* border-radius: 10px; */
+  border: 2px solid #f6b2b5!important;
+  margin: 0px 5px 0px 0px;
+}
+
+.arrowOpen{
+  float: right;
+  width: 15px;
+  font-size: 15px;
+}
+
+.collapsible-header{
+  position: relative;
+}
+
+.collapsible-header:hover{
+  background: #E2E2E2!important
+}
+
+.collapsibleHeaderTitle{
+  padding: 0px 70px 0px 0px;
+}
+
+.centerThis{
+  display: block;
+  text-align: center;
+}
+
+.boldThis{
+  font-weight: bold!important;
+}
+
+.arrowDown{
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
