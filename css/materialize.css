@@ -483,6 +483,10 @@
   color: #512da8 !important;
 }
 
+.tabs .indicator{
+  background-color: #acacac!important;
+}
+
 .deep-purple.darken-3 {
   background-color: #4527a0 !important;
 }
