@@ -23,6 +23,19 @@
   text-align: center;
 }
 
+.excommTab{
+  margin: 20px 0px;
+}
+
+.tabs .active{
+  background: #ececec!important;
+}
+
+.tabs a{
+  color: grey!important;
+  font-weight: 500;
+}
+
 .memberCard img{
   display: block;
   margin: 0 auto;
@@ -61,7 +74,7 @@
   display: block;
   text-align: center;
   margin: 20px 0px;
-  font-weight: bold;
+  font-weight: 300;
   font-family: 'Arvo' , serif;
 }
 
@@ -90,6 +103,11 @@
     width: 100%;
     margin: 15px 0px;
   }
+
+  .memberEmail{
+    font-size: 14px;
+  }
+
   .vedantPhoto{
     width: 200px!important;
     height: 150px!important;
