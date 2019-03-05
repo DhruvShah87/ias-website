@@ -26,6 +26,10 @@
   outline:none;
 }
 
+.makeBlue{
+  color: #2196f3!important;
+}
+
 .topNavLinks{
   color:white!important;
   display: inline-block;
