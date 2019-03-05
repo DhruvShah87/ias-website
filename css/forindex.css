@@ -64,7 +64,7 @@
 }
 
 /* media query */
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .menuBtnContainer{
 		display: block;
 	}
@@ -83,13 +83,13 @@
   }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 621px) {
   .menuBtnContainer{
     display: none!important;
   }
 
   .topNavyblueDiv{
-    display: block!important;
+    /* display: block!important; */
     height: 80px!important;
   }
 

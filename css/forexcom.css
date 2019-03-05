@@ -1,0 +1,97 @@
+#mainContent{
+  width: 100%;
+  height: auto;
+}
+
+.memberWrapper{
+  width: 50%;
+  float: left;
+  margin: 15px 0px;
+}
+
+
+.memberCard{
+  width: 60%;
+  padding: 8px;
+  margin: 4px auto;
+  border: 1px solid #acacac;
+  border-radius: 10px;
+}
+
+.memberCard h4{
+  display: block;
+  text-align: center;
+}
+
+.memberCard img{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 250px;
+}
+
+.vedantPhoto{
+  width: 300px!important;
+  height: 250px!important;
+}
+
+.memberCard p{
+  display: block;
+  text-align: center;
+}
+
+.memberName{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wholeWrapper{
+  width: 100%;
+  clear: both;
+  margin: 15px 0px 10px 0px;
+}
+
+.wholeWrapper h4{
+  display: block;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.wholeWrapper h3{
+  display: block;
+  text-align: center;
+  margin: 20px 0px;
+  font-weight: bold;
+  font-family: 'Arvo' , serif;
+}
+
+.page-footer{
+  clear: both!important;
+}
+
+@media (max-width: 800px) {
+  .memberCard h4{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .wholeWrapper h3{
+    font-size: 24px;
+  }
+
+  .memberName{
+      font-size: 18px;
+  }
+
+}
+
+@media (max-width:680px) {
+  .memberWrapper{
+    width: 100%;
+    margin: 15px 0px;
+  }
+  .vedantPhoto{
+    width: 200px!important;
+    height: 150px!important;
+  }
+}
