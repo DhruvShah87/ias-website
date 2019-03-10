@@ -37,3 +37,11 @@
   width: 20px;
   height: 20px;
 }
+
+.arrowUp{
+  position: absolute;
+  right: 10px;
+  display: none;
+  width: 20px;
+  height: 20px;
+}
