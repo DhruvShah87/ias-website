@@ -9,12 +9,12 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
   <link rel="stylesheet" href="css/forindex.css">
   <link rel="stylesheet" href="css/forall.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-  <script type="text/javascript" src="js/wow.min.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" /> -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body style="font-family: Raleway;">
 
@@ -30,14 +30,11 @@
         <li style="margin: 0;"><a style="margin: 0;" href="http://standards.ieee.org/"> IEEE Standards </a></li>
         <li style="margin: 0;" class="hide-on-med-and-down"><a style="margin: 0;" href="http://spectrum.ieee.org/"> IEEE Spectrum </a></li>
       </ul> -->
-      <a style="margin-left: 2%; margin-top: 10px;" class="white-text topNavLinks" href="http://www.ieee.org/">IEEE</a> | <a class="white-text topNavLinks" href="https://ias.ieee.org/">IAS</a> | <a href="http://ieeexplore.ieee.org/" class="white-text topNavLinks">IEEE Xplore Digital Library</a> | <a class="white-text topNavLinks" href="http://standards.ieee.org/">IEEE Standards</a> | <a class="white-text topNavLinks" href="http://spectrum.ieee.org/">IEEE Spectrum</a>
+      <a style="margin-left: 2%; margin-top: 10px;" class="white-text topNavLinks" href="http://www.ieee.org/">IEEE</a><a class="white-text topNavLinks" href="https://ias.ieee.org/">IAS</a><a href="http://ieeexplore.ieee.org/" class="white-text topNavLinks">IEEE Xplore Digital Library</a><a class="white-text topNavLinks" href="http://standards.ieee.org/">IEEE Standards</a><a class="white-text topNavLinks" href="http://spectrum.ieee.org/">IEEE Spectrum</a>
 
 
   </div>
 
-  <script>
-    new WOW().init();
-  </script>
   <div class="row" >
   <a id="section logo-container"  href="index.html" class="brand-logo">
         <img class="hide-on-med-and-down right"  style="margin-right: 60px; margin-top: 40px;" src="images/ieee-mb-bk.png">
@@ -95,7 +92,7 @@
             </ol>
         </div>
         <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancle</a>
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
         </div>
       </div>
 
@@ -112,11 +109,24 @@
       <ul id="dropdown7" class="dropdown-content" style="overflow: hidden;">
         <li><a href="awards.html">Awards</a></li>
         <li><a href="conferences.html">Conferences</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/membership.html">Join IEEE IAS</a></li>
-            <li><a  href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html">Chapter Promotion Programs</a></li>
-            <li><a  href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html">Distinguished Lecturer Program</a></li>
+        <li><a  href="https://ias.ieee.org/chapters-membership/membership.html" target="_blank">Join IEEE IAS</a></li>
+            <li><a  href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html" target="_blank">Chapter Promotion Programs</a></li>
+            <li><a  href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html" target="_blank">Distinguished Lecturer Program</a></li>
 
         <li><a class="modal-trigger" href="#modal1">Why join IEEE?</a></li>
+      </ul>
+
+
+
+      <ul id="achievementSubmenu" class="dropdown-content" style="overflow: hidden;">
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="achievements.html#201819">2018-2019</a></li>
+        <li><a href="achievements.html#201718">2017-2018</a></li>
+        <li><a href="achievements.html#201516">2015-2016</a></li>
+        <li><a href="achievements.html#201415">2014-2015</a></li>
+        <li><a href="achievements.html#201314">2013-2014</a></li>
+        <li><a href="achievements.html#201213">2012-2013</a></li>
+
       </ul>
 
 
@@ -124,8 +134,8 @@
       <ul class="left hide-on-med-and-down">
         <li><a href="index.html"  class="blue-text">Home</a></li>
         <li><a href="evets.html"  class="blue-text">Events</a></li>
-        <li><a href="achievements.html" class="blue-text activeLink">Achievements</a></li>
-        <li><a href="execomm.html" class="blue-text">ExCom</a></li>
+        <li><a href="#" class="dropdown-button blue-text activeLink" data-activates="achievementSubmenu">Achievements<i class="material-icons right">arrow_drop_down</i></a></a></li>
+        <li><a href="execomm.html" class="blue-text">Executive Committee</a></li>
         <!-- <li><a href="pastexecomm.html" class="blue-text">Past-ExCom</a></li> -->
         <li><a href="gallery.html"  class="blue-text">Gallery</a></li>
         <li><a href="contact.html" class="blue-text">Contact us</a></li>
@@ -135,9 +145,9 @@
       <ul id="dropdown1" class="dropdown-content" style="overflow: hidden;">
         <li><a href="awards.html">Awards</a></li>
         <li><a href="conferences.html">Conferences</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/membership.html">Join IEEE IAS</a></li>
-            <li><a  href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html">Chapter Promotion Programs</a></li>
-            <li><a  href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html">Distinguished Lecturer Program</a></li>
+        <li><a  href="https://ias.ieee.org/chapters-membership/membership.html" target="_blank">Join IEEE IAS</a></li>
+            <li><a  href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html" target="_blank">Chapter Promotion Programs</a></li>
+            <li><a  href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html" target="_blank">Distinguished Lecturer Program</a></li>
 
         <li><a class="modal-trigger" href="#modal1">Why join IEEE?</a></li>
       </ul>
@@ -148,7 +158,7 @@
         <li><a href="index.html" class="blue-text">Home</a></li>
         <li><a href="evets.html" class="blue-text">Events</a></li>
         <li><a href="awards.html" class="blue-text">Achievements</a></li>
-        <li><a href="execomm.html" class="blue-text">ExCom</a></li>
+        <li><a href="execomm.html" class="blue-text">Executive Committee</a></li>
         <li><a href="gallery.html"  class="blue-text">Gallery</a></li>
         <li><a href="contact.html" class="blue-text">Contact us</a></li>
         <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown1">More about IAS<i class="material-icons right">arrow_drop_down</i>
@@ -199,9 +209,9 @@
     <div class="section">
       <div class="row">
 
-        <div class="card-panel">
-          <div class=" wow animated zoomInDown">
-          <h5 class="red-text wow animated slidInDown">
+        <div class="card-panel" id="201819">
+          <div>
+          <h5 class="red-text">
             Achievements
           </h5>
           <h6>
@@ -209,7 +219,7 @@
           </h6>
           <br>
         </div>
-        <div class=" wow animated zoomInLeft">
+        <div>
           <ol class="section lighten" style="list-style-type:disc;">
                 <!-- <li>
                 Received Chapter grant of 300USD from IEEE IAS CMD to organise IAS DA-IICT Day at section level.
@@ -232,9 +242,9 @@
             </div>
         </div>
 
-        <div class="card-panel">
-          <div class=" wow animated zoomInDown">
-          <h5 class="red-text wow animated slidInDown">
+        <div class="card-panel" id="201718">
+          <div>
+          <h5 class="red-text">
             Achievements
           </h5>
           <h6>
@@ -242,7 +252,7 @@
           </h6>
           <br>
         </div>
-        <div class=" wow animated zoomInLeft">
+        <div>
           <ol class="section lighten" style="list-style-type:disc;">
                 <li>
                   Students Maitreya Patel, Anery Patel and Raksha Rank won second prize In Ingenium Hackathon in the field of Machine Learning conducted at Ahmedabad University.
@@ -278,9 +288,9 @@
         </div>
 
 
-        <div class="card-panel">
-          <div class=" wow animated zoomInDown">
-          <h5 class="red-text wow animated slidInDown">
+        <div class="card-panel" id="201516">
+          <div>
+          <h5 class="red-text">
             Achievements
           </h5>
           <h6>
@@ -288,7 +298,7 @@
           </h6>
           <br>
         </div>
-        <div class=" wow animated zoomInLeft">
+        <div>
           <ol class="section lighten" style="list-style-type:disc;">
                 <li>
                   IAS SB DA-IICT received Third Prize in Chapter Web Contest 2016.
@@ -308,9 +318,9 @@
             </div>
         </div>
 
-        <div class="card-panel">
-          <div class=" wow animated zoomInDown">
-          <h5 class="red-text wow animated slidInDown">
+        <div class="card-panel" id="201415">
+          <div>
+          <h5 class="red-text">
             Achievements
           </h5>
           <h6>
@@ -318,7 +328,7 @@
           </h6>
           <br>
         </div>
-        <div class=" wow animated zoomInLeft">
+        <div>
           <ol class="section lighten" style="list-style-type:disc;">
                 <li>
                   IEEE IAS Student Branch of DA-IICT secured the 3rd place in the MOST HAPPENING Chapter Contest for 2014
@@ -328,9 +338,9 @@
         </div>
 
 
-        <div class="card-panel">
-          <div class=" wow animated zoomInDown">
-          <h5 class="red-text wow animated slidInDown">
+        <div class="card-panel" id="201314">
+          <div>
+          <h5 class="red-text">
             Achievements
           </h5>
           <h6>
@@ -338,7 +348,7 @@
           </h6>
           <br>
         </div>
-        <div class=" wow animated zoomInLeft">
+        <div>
           <ol class="section lighten" style="list-style-type:disc;">
                 <li>
                   Zucker Travel Award to Mr. Brijesh Kumar and Mr. Saksham Gupta of DA-IICT SB
@@ -380,9 +390,9 @@
 
 
 
-        <div class="card-panel">
-          <div class=" wow animated zoomInDown">
-          <h5 class="red-text wow animated slidInDown">
+        <div class="card-panel" id="201213">
+          <div>
+          <h5 class="red-text">
             Achievements
           </h5>
           <h6>
@@ -390,7 +400,7 @@
           </h6>
           <br>
         </div>
-        <div class=" wow animated zoomInLeft">
+        <div>
           <ol class="section lighten" style="list-style-type:disc;">
                 <li>
                   MGA Leadership Award for Dr. Anil K. Roy
@@ -444,10 +454,10 @@
         <div class="col l3 s12">
           <h5 class="white-text">Site map</h5>
           <ul>
-            <li><a class="hoverable siteMapLink" href="index.html" target="_blank">Home</a></li>
-            <li><a class="hoverable siteMapLink" href="awards.html" target="_blank">Awards</a></li>
-            <li><a class="hoverable siteMapLink" href="conferences.html" target="_blank">Conferences</a></li>
-            <li><a class="hoverable siteMapLink" href="contact.html" target="_blank">Contect us</a></li>
+            <li><a class="hoverable siteMapLink" href="index.html">Home</a></li>
+            <li><a class="hoverable siteMapLink" href="awards.html">Awards</a></li>
+            <li><a class="hoverable siteMapLink" href="conferences.html">Conferences</a></li>
+            <li><a class="hoverable siteMapLink" href="contact.html">Contact us</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
@@ -463,10 +473,11 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Developed by <a class="orange-text text-lighten-3" href="http://github.com/Maitreyapatel" target="_blank">Maitreya</a> and <a class="orange-text text-lighten-3" href="https://github.com/rhythm-3099" target="_blank">Rhythm</a>
+      Developed by <a class="orange-text text-lighten-3 devLink" href="http://github.com/Maitreyapatel" target="_blank">Maitreya</a> and <a class="orange-text text-lighten-3 devLink" href="https://github.com/rhythm-3099" target="_blank">Rhythm</a>
       </div>
     </div>
   </footer>
+
 
 
 

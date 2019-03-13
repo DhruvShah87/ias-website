@@ -9,6 +9,10 @@
   margin: 15px 0px;
 }
 
+.centerThis{
+  display: block;
+  margin: 0 auto!important;
+}
 
 .memberCard{
   width: 60%;
@@ -44,8 +48,8 @@
 }
 
 .vedantPhoto{
-  width: 300px!important;
-  height: 250px!important;
+  width: 200px!important;
+  height: 150px!important;
 }
 
 .memberCard p{
