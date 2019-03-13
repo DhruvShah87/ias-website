@@ -1,0 +1,12 @@
+.conferenceTab{
+  margin: 20px 0px;
+}
+
+.tabs .active{
+  background: #ececec!important;
+}
+
+.tabs a{
+  color: grey!important;
+  font-weight: 500;
+}
