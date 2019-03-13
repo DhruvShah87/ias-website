@@ -76,7 +76,8 @@ body{
 
 .activeLink{
   background-color: #CDF4C8!important;
-  pointer-events: none;
+  pointer-events: none!important;
+  font-weight: bold;
   color: #212f3c!important;
 }
 
