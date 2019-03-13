@@ -1,3 +1,8 @@
+body{
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+
 .topNavyblueDiv{
   min-height: 80px!important;
   color: #ececec!important;
@@ -75,6 +80,19 @@
   color: #212f3c!important;
 }
 
+.devLink{
+  transition: hover 250ms ease-in-out;
+}
+
+.devLink:hover{
+  color:palegreen!important;
+}
+
+.websiteLink{
+  font-weight: bold;
+  font-size: 120%;
+}
+
 
 /* media query */
 @media (max-width: 620px) {
@@ -98,5 +116,11 @@
     display: none;
     padding: 20px 0px 0px 0px!important;
     margin: 0px auto!important;
+  }
+}
+
+@media (min-width: 621px){
+  .topNavyblueDiv{
+    display: block;
   }
 }

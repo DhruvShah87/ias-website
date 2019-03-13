@@ -9,6 +9,10 @@
   margin: 15px 0px;
 }
 
+.centerThis{
+  display: block;
+  margin: 0 auto!important;
+}
 
 .memberCard{
   width: 60%;
