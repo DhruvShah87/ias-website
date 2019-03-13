@@ -52,3 +52,19 @@
   width: 20px;
   height: 20px;
 }
+
+.notClicked .arrowUp{
+  display: none;
+}
+
+.notClicked .arrowDown{
+  display: block;
+}
+
+.clicked .arrowDown{
+  display: none;
+}
+
+.clicked .arrowUp{
+  display: block;
+}
