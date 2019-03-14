@@ -32,6 +32,7 @@
   margin-left: 15px !important;
   padding-top: 15px !important;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .topNavLinks:after {
@@ -97,6 +98,13 @@
   float: left;
 }
 
+.centerThisContact{
+  width: 100%;
+  display: block;
+  margin: 0 auto!important;
+  text-align: center;
+}
+
 /* media query */
 @media (max-width: 620px) {
   .menuBtnContainer{
@@ -124,7 +132,13 @@
   #sliderContent img{
     height: 250px;
   }
+
+  #map{
+    display: none;
+  }
 }
+
+
 
 @media (min-width: 621px) {
   .menuBtnContainer{
@@ -144,5 +158,9 @@
     margin-left: 15px !important;
     padding-top: 15px !important;
     text-decoration: none;
+  }
+
+  #map{
+    display: block;
   }
 }
