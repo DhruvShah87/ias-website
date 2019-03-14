@@ -303,8 +303,6 @@
               </div>
         </div>
 
-
-
         <div class="card-panel" id="201213">
           <div>
             <h5 class="red-text">
@@ -393,10 +391,6 @@
     </div>
   </footer>
 
-
-
-
-
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
@@ -404,27 +398,12 @@
   <script src="js/init.js"></script>
 
 
-   <script type="text/javascript">
-
-    $(document).ready(function(){
-      $('.slider').slider();
+  <script type="text/javascript">
+          $(document).ready(function(){
+      // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+      $('.modal').modal();
     });
-        // Pause slider
-$('.slider').slider('pause');
-// Start slider
-$('.slider').slider('start');
-// Next slide
-$('.slider').slider('next');
-// Previous slide
-$('.slider').slider('prev');
-      </script>
-
-      <script type="text/javascript">
-              $(document).ready(function(){
-          // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-          $('.modal').modal();
-        });
-      </script>
+  </script>
 
   </body>
 </html>
