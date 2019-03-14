@@ -94,6 +94,13 @@ body{
   font-size: 120%;
 }
 
+@media (max-width: 740px){
+  .centerThisContact{
+    width: 100%;
+    display: block;
+  }
+}
+
 
 /* media query */
 @media (max-width: 620px) {
