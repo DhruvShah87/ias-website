@@ -349,6 +349,7 @@ html,body{
   display: none;
 }
 .centerThis{
+  display: block!important;
   text-align: center;
 }
 
