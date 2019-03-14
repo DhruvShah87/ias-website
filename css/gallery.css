@@ -173,3 +173,11 @@
   -webkit-transform: none;
           transform: none;
 }
+
+/* Rhythm's simple gallery */
+
+.galleryWrapper{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
