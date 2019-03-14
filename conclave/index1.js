@@ -138,8 +138,6 @@ speakerName2.style.color="#ececec";
 speakerName3.style.color="#ececec";
 speakerName4.style.color="#ececec";
 
-speakerA.style.color="#ececec";
-speakerB.style.color="#ececec";
 speakerC.style.color="#ececec";
 speakerD.style.color="#ececec";
 speakerE.style.color="#ececec";
