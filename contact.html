@@ -16,19 +16,36 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body style="font-family: Raleway;">
-  <div class="menuBtnContainer" onclick="hideOrShow()">
-    		<i class="fa fa-bars menu" style="color: white"></i>
-	</div>
-  <div style="background-color: #212f3c;" style="margin: 0;" class="topNavyblueDiv">
-      <a style="margin-left: 2%; margin-top: 10px;" class="white-text topNavLinks" href="http://www.ieee.org/">IEEE</a><a class="white-text topNavLinks" href="https://ias.ieee.org/">IAS</a><a href="http://ieeexplore.ieee.org/" class="white-text topNavLinks">IEEE Xplore Digital Library</a><a class="white-text topNavLinks" href="http://standards.ieee.org/">IEEE Standards</a><a class="white-text topNavLinks" href="http://spectrum.ieee.org/">IEEE Spectrum</a>
+  <!-- For the animation when the top left burger is clicked -->
+  <div class="overlay">
+    <nav class="overlayNavigation">
+      <ul>
+        <li class="overlayNav1"><a href="#">IEEE</a></li>
+        <li class="overlayNav2"><a href="#">IAS</a></li>
+        <li class="overlayNav3"><a href="#">IEEE XPLORE DIGITAL LIBRARY</a></li>
+        <li class="overlayNav4"><a href="#">IEEE STANDARDS</a></li>
+        <li class="overlayNav5"><a href="#">IEEE SPECTRUM</a></li>
+      </ul>
+    </nav>
   </div>
 
+  <div class="menuBtnContainer">
+    <!--For the (IEEE, IAS,...) options menu button-->
+
+    <div class="openOverlay">
+      <span id="topBar1"></span>
+      <span id="middleBar1"></span>
+      <span id="bottomBar1"></span>
+    </div>
+
+  </div>
   <div class="row" >
     <div id="section logo-container"  href="index.html" class="brand-logo">
           <img class="hide-on-med-and-down right"  style="margin-right: 60px; margin-top: 20px; width: 176px; height: 106px" src="images/ieeesb.png">
           <img  src="images/ias-logo.png" style="margin-left: 60px;" class="left">
     </div>
   </div>
+  <!-- copy till here -->
   <nav class="white lighten-1" role="navigation" style="margin-top: 0;">
     <div class="nav-wrapper" style="margin-left: 5%; margin-right: 5%;">
       <div id="modal1" class="modal modal-fixed-footer" style="overflow: hidden;">
