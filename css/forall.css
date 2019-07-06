@@ -492,6 +492,7 @@ body{
 
   .overlayNavigation li a{
     font-size: 13px;
+    padding: 0px!important;
   }
 
 }

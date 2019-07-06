@@ -3,7 +3,7 @@ function arrowChange(clickedId){
     //alert('not clicked!');
     document.getElementById(clickedId).classList.add('clicked');
     document.getElementById(clickedId).classList.remove('notClicked');
-    for(var i=1;i<=29;i++){
+    for(var i=1;i<=31;i++){
       var str="option"+i;
       if(str!=clickedId){
         //alert(str);
