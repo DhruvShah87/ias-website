@@ -36,117 +36,6 @@ html,body{
   font-weight: bold;
 }
 
-.anim-type{
-  animation: typewriter 4s steps(12) 1s 1 normal both,
-              blinkCursor 500ms steps(12) infinite normal;
-}
-
-.typingSplash{
-  width: 100%;
-  height: 100%;
-  background: black;
-  text-align: center;
-}
-
-.splashFade{
-  animation: splashFadeOut 3s 1;
-  animation-fill-mode: forwards;
-}
-
-.introHeading{
-  padding: 20px 0px;
-  color: white!important;
-  font-size: 8rem;
-  white-space: nowrap;
-  overflow: hidden;
-  font-family: 'Anonymous Pro', monospace!important;
-}
-
-.spColor{
-  padding: 20px 0px;
-  color: palegreen!important;
-  font-size: 8rem;
-  white-space: nowrap;
-  overflow: hidden;
-  font-family: 'Anonymous Pro', monospace!important;
-}
-
-.splashMessage{
-  font-size: 4rem;
-  padding: 70px 0px 0px 0px;
-  font-family: 'Anonymous Pro', monospace!important;
-}
-
-.animload1{
-  margin: 0 auto;
-  letter-spacing: 2px!important;
-	animation: type1 1.4s steps(7),
-			 blinkCursor1 500ms 3;
-	animation-fill-mode: forwards;
-}
-
-.anim1{
-  width: 0em!important;
-}
-
-.animload2{
-  margin: 0 auto;
-  letter-spacing: 4px!important;
-  animation: type2 0.3s steps(2),
-              blinkCursor2 500ms 2;
-  animation-fill-mode: forwards;
-  border-right:2px solid #000;
-  animation-delay: 1.5s;
-}
-
-.anim2{
-  width: 0em!important;
-}
-
-.animload3{
-  margin: 0 auto;
-  letter-spacing: 4px!important;
-  animation: type3 0.8s steps(8),
-              blinkCursor3 500ms 3;
-  animation-fill-mode: forwards;
-  border-right: 2px solid #000;
-  animation-delay: 2.5s;
-}
-
-.anim3{
-  width: 0!important;
-}
-
-.animload4{
-  margin: 0 auto;
-  letter-spacing: 2px!important;
-  animation: type4 0.5s steps(4),
-              blinkCursor4 500ms 3;
-  border-right: 2px solid #000;
-  animation-fill-mode: forwards;
-  animation-delay: 4s;
-}
-
-.anim4{
-  width: 0!important;
-}
-
-.animload5{
-  animation: messageAnim 1s infinite alternate;
-  animation-delay: 5.5s;
-}
-
-.anim5{
-  text-align: center!important;
-  color:black !important;
-}
-
-
-#wrapper{
-  display: none;
-}
-
-
 /* The main page's css #314455*/
 #speakerSection{
   width: 100%;
@@ -411,9 +300,35 @@ html,body{
   color: orange!important;
 }
 
-.contactUsLast:hover{
-  color: orange!important;
+#galleryTitle{
+	display: block;
+	text-align: center;
 }
+
+#sliderContent img{
+	display: block;
+	margin: 20px auto;
+	width: 80%;
+	height: 450px;
+}
+
+.mySlider #imageInfo{
+	text-align: center;
+	font-weight: bold;
+}
+
+.sliderRightArrow{
+  width: 40px;
+  height:40px;
+  float: right;
+}
+
+.sliderLeftArrow{
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
 
 /*  Animations  */
 @keyframes type1{
@@ -649,5 +564,17 @@ html,body{
 
   .moreG{
     display: block;
+  }
+}
+
+@media (max-width: 620px) {
+
+  .mySlider{
+    width: 80%;
+    height: 350px;
+  }
+
+  #sliderContent img{
+    height: 250px;
   }
 }

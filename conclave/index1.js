@@ -37,7 +37,7 @@ var moreE=document.querySelector('.moreE');
 var moreF=document.querySelector('.moreF');
 var moreG=document.querySelector('.moreG');
 
-splash.addEventListener('click', function(){
+/*splash.addEventListener('click', function(){
   introHeading.style.display='none';
   anim2.style.display='none';
   anim3.style.display='none';
@@ -47,7 +47,7 @@ splash.addEventListener('click', function(){
   setTimeout(myFunc,1000);
   //splash.style.display="none";
   //postSplash.style.display="block";
-});
+});*/
 
 var a=false,b=false,c=false,d=false,e=false,f=false,g=false;
 var height;
@@ -121,7 +121,7 @@ var height;
 
 
 
-function func1(){
+/*function func1(){
   height=window.innerWidth;
   console.log(height);
   anim1.classList.add('animload1');
@@ -129,9 +129,8 @@ function func1(){
   anim3.classList.add('animload3');
   anim4.classList.add('animload4');
   splashMessage.classList.add('animload5');
-}
+}*/
 
-window.onload=func1;
 
 speakerName1.style.color="#ececec";
 speakerName2.style.color="#ececec";
@@ -145,95 +144,30 @@ speakerF.style.color="#ececec";
 speakerG.style.color="#ececec";
 
 
-function myFunc(){
-  splash.style.display='none';
-  postSplash.style.display='block';
+// For the gallery slider
+
+var sliderContent = document.getElementById('sliderContent');
+var imageInfo = document.getElementById('imageInfo');
+var imagesSlider = ['galpic1','galpic2','galpic3','galpic4','galpic5','galpic6','galpic7','galpic8'];
+var picInfo = ["Inaugral of the Conclave","Engaged audience", "Dr. Peter Magyar", "Speech on the impact of IEEE and green power","Sunil Parekh", "Krishnaprasad Shastry","Prof. Sourish Dasgupta", "Organising Committee"]
+var i = 0;
+
+function nextSlider(){
+	if(i<imagesSlider.length-1){
+		i=i+1;
+	} else {
+		i=0;
+	}
+	sliderContent.innerHTML = "<img src=sliderPhotos/" + imagesSlider[i] + ".jpeg>";
+	imageInfo.innerHTML = picInfo[i];
 }
 
-// For Nitendra Sir
-
-// speakerA.addEventListener("mouseover", function(){
-//   speakerName1.style.color="orange";
-// });
-//
-// speakerA.addEventListener("mouseout", function(){
-//   speakerName1.style.color="#ececec";
-// });
-//
-// speakerB.addEventListener("mouseover", function(){
-//   speakerName1.style.color="orange";
-// });
-//
-// speakerB.addEventListener("mouseout", function(){
-//   speakerName1.style.color="#ececec";
-// });
-//
-// speakerC.addEventListener("mouseover", function(){
-//   speakerName1.style.color="orange";
-// });
-//
-// speakerC.addEventListener("mouseout", function(){
-//   speakerName1.style.color="#ececec";
-// });
-//
-// speakerD.addEventListener("mouseover", function(){
-//   speakerName1.style.color="orange";
-// });
-//
-// speakerD.addEventListener("mouseout", function(){
-//   speakerName1.style.color="#ececec";
-// });
-//
-// speakerE.addEventListener("mouseover", function(){
-//   speakerName1.style.color="orange";
-// });
-//
-// speakerE.addEventListener("mouseout", function(){
-//   speakerName1.style.color="#ececec";
-// });
-//
-// speakerF.addEventListener("mouseover", function(){
-//   speakerName1.style.color="orange";
-// });
-//
-// speakerF.addEventListener("mouseout", function(){
-//   speakerName1.style.color="#ececec";
-// });
-//
-// speakerG.addEventListener("mouseover", function(){
-//   speakerName1.style.color="orange";
-// });
-//
-// speakerG.addEventListener("mouseout", function(){
-//   speakerName1.style.color="#ececec";
-// });
-
-// For Lall Sir
-
-// speakerName2.addEventListener("mouseover", function(){
-//   speakerName2.style.color="orange";
-// })
-//
-// speakerName2.addEventListener("mouseout", function(){
-//   speakerName2.style.color="#ececec";
-// })
-//
-// // For KrishnaPrasad Sir
-//
-// speakerName1.addEventListener("mouseover", function(){
-//   speakerName1.style.color="orange";
-// })
-//
-// speakerName1.addEventListener("mouseout", function(){
-//   speakerName1.style.color="#ececec";
-// })
-//
-// // For Sunil Sir
-//
-// speakerName1.addEventListener("mouseover", function(){
-//   speakerName1.style.color="orange";
-// })
-//
-// speakerName1.addEventListener("mouseout", function(){
-//   speakerName1.style.color="#ececec";
-// })
+function prevSlider(){
+	if(i<imagesSlider.length+1 && i>0){
+		i--;
+	} else {
+		i=imagesSlider.length-1;
+	}
+	sliderContent.innerHTML = "<img src=sliderPhotos/" + imagesSlider[i] + ".jpeg>";
+	imageInfo.innerHTML = picInfo[i] ;
+}
