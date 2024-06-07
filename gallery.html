@@ -18,11 +18,13 @@
   <script type="text/javascript" src="js/wow.min.js"></script> -->
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
 </head>
 <body style="font-family: Raleway;">
   <!-- For the animation when the top left burger is clicked -->
-  <div class="overlay">
+  <!-- <div class="overlay">
     <nav class="overlayNavigation">
       <ul>
         <li class="overlayNav1"><a href="https://www.ieee.org/" target="_blank">IEEE</a></li>
@@ -32,34 +34,34 @@
         <li class="overlayNav5"><a href="https://spectrum.ieee.org/" target="_blank">IEEE SPECTRUM</a></li>
       </ul>
     </nav>
-  </div>
+  </div> -->
 
-  <div class="menuBtnContainer">
+  <!-- <div class="menuBtnContainer"> -->
     <!--For the (IEEE, IAS,...) options menu button-->
 
-    <div class="openOverlay">
+    <!-- <div class="openOverlay">
       <span id="topBar1"></span>
       <span id="middleBar1"></span>
       <span id="bottomBar1"></span>
     </div>
 
-  </div>
-  <div class="row" >
+  </div> -->
+  <!-- <div class="row" >
     <div id="section logo-container"  href="index.html" class="brand-logo">
           <img class="hide-on-med-and-down right"  style="margin-right: 60px; margin-top: 20px; width: 176px; height: 106px" src="images/ieeesb.png">
           <img  src="images/ias-logo.png" style="margin-left: 60px;" class="left">
     </div>
-  </div>
+  </div> -->
   <!-- copy till here -->
   <nav class="white lighten-1" role="navigation" style="margin-top: 0;">
     <div class="nav-wrapper" style="margin-left: 5%; margin-right: 5%;">
-      <div id="modal1" class="modal modal-fixed-footer" style="overflow: hidden;">
+      <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h4 class="blue-text">Why join IEEE?</h4>
           <p class="black-text">IEEE appeared from the union of two engineering societies in the early sixties, the IRE (Institute of Radio Engineers) and the AIEE (American Institute of Electrical Engineers). The IEEE is essentially a society for Electrical and Computer Engineers, but it also welcomes Computer Scientists and Physicists. IEEE is what is known as a technical professional society. Every engineering branch has a technical professional society, Civil Engineering has ASCE (American Society of Civil Engineers), Mechanical Engineering has ASME (American Society of Mechanical Engineers).</p>
           <p style="color: black;">What distinguishes IEEE from this other societies is the fact that IEEE is international. There are IEEE chapters in every continent, and in almost every country, and in those countries where IEEE is not established it has links with the local engineering societies, such as the case with IKE (Institution of Electrical Engineers) in the United Kingdom of Great Britain and Northern Ireland. This makes IEEE the largest engineering society in the world.</p>
 
-          <ol class="lighten" style="color: black;">
+          <ol class="lighten">
               <li>
                 Spectrum, a monthly magazine of IEEE (single copy costs $ 4, It is FREE with Member Subscription).
               </li>
@@ -100,39 +102,38 @@
       <ul id="dropdown7" class="dropdown-content" style="overflow: hidden;">
         <li><a href="awards.html">Awards</a></li>
         <li><a href="conferences.html">Conferences</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/membership.html">Join IEEE IAS</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html">Chapter Promotion Programs</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html">Distinguished Lecturer Program</a></li>
+        <li><a  href="https://ias.ieee.org/chapters-membership/membership.html" target="_blank">Join IEEE IAS</a></li>
+        <li><a  href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html" target="_blank">Chapter Promotion Programs</a></li>
+        <li><a  href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html" target="_blank">Distinguished Lecturer Program</a></li>
         <li><a class="modal-trigger" href="#modal1">Why join IEEE?</a></li>
       </ul>
 
-      <ul id="achievementSubmenu" class="dropdown-content" style="overflow: hidden;">
-        <li><a href="achievements.html">Achievements</a></li>
-        <li><a href="achievements.html#201819">2018-2019</a></li>
-        <li><a href="achievements.html#201718">2017-2018</a></li>
-        <li><a href="achievements.html#201516">2015-2016</a></li>
-        <li><a href="achievements.html#201415">2014-2015</a></li>
-        <li><a href="achievements.html#201314">2013-2014</a></li>
-        <li><a href="achievements.html#201213">2012-2013</a></li>
-
-      </ul>
-
-      <ul class="left hide-on-med-and-down">
-        <li><a href="index.html"  class="blue-text">Home</a></li>
-        <li><a href="evets.html"  class="blue-text">Events</a></li>
-        <li><a href="#" class="dropdown-button blue-text" data-activates="achievementSubmenu">Achievements<i class="material-icons right">arrow_drop_down</i></a></a></li>
-        <li><a href="execomm.html" class="blue-text">Executive Committee</a></li>
-        <li><a href="gallery.html"  class="blue-text activeLink">Gallery</a></li>
-        <li><a href="contact.html" class="blue-text">Contact us</a></li>
-        <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown7">More about IAS<i class="material-icons right">arrow_drop_down</i></a></li>
-      </ul>
+      
+      <div class="setLogos">
+        <div class="left hide-on-med-and-down " style="display: flex; align-items: center;">
+          <img src="images/collegeLogo.png"style="margin-top: 0px; width: 60px; height: 60px ;" alt="jl">
+        </div>
+        <ul class="left hide-on-med-and-down ">
+          <li><a href="index.html"  class="blue-text">Home</a></li>
+          <li><a href="evets.html"  class="blue-text">Events</a></li>
+          <li><a href="achievements.html"  class="blue-text">Achievements</a></li>
+          <li><a href="execomm.html" class="blue-text">Executive Committee</a></li>
+          <li><a href="gallery.html"  class="blue-text">Gallery</a></li>
+          <li><a href="contact.html" class="blue-text">Contact us</a></li>
+          <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown7">More about IAS<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+        <div class="left hide-on-med-and-down ">
+          <img class="hide-on-med-and-down right "  style="margin-right: 60px; margin-top: 0px; width: 70px; height: 70px" src="images/ieeesb.png">
+          <img  src="images/ias-logo.png" style="margin-left: 60px; width: 170px; height: 50px;" class="left l2">
+        </div>
+      </div>
 
       <ul id="dropdown1" class="dropdown-content" style="overflow: hidden;">
         <li><a href="awards.html">Awards</a></li>
         <li><a href="conferences.html">Conferences</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/membership.html">Join IEEE IAS</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html">Chapter Promotion Programs</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html">Distinguished Lecturer Program</a></li>
+        <li><a  href="https://ias.ieee.org/chapters-membership/membership.html" target="_blank">Join IEEE IAS</a></li>
+        <li><a  href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html" target="_blank">Chapter Promotion Programs</a></li>
+        <li><a  href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html" target="_blank">Distinguished Lecturer Program</a></li>
         <li><a class="modal-trigger" href="#modal1">Why join IEEE?</a></li>
       </ul>
 
@@ -144,36 +145,38 @@
         <li><a href="gallery.html"  class="blue-text">Gallery</a></li>
         <li><a href="contact.html" class="blue-text">Contact us</a></li>
         <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown1">More about IAS<i class="material-icons right">arrow_drop_down</i>
+          
       </ul>
-      <a href="#" data-activates="nav-mobile" class="blue button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="blue button-collapse"><i class="material-icons menuBar">menu</i></a>
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container afterbody">
     <div class="section">
       <div class="row">
         <div class="">
           <div class="mySlider">
-            <div id="sliderContent">
-              <img src="galleryphotos/galpic1.jpeg" alt="Gallery Picture">
+            <div id="sliderContent" class="addshdw">
+              <img src="galleryphotos/galpic1.jpeg"  alt="Gallery Picture">
             </div>
             <p id="imageInfo">Executive Committee, 2019</p>
-            <img src="arrowLeftFinal.png" alt="left arrow" class="sliderLeftArrow" onclick="prevSlider()">
-            <img src="arrowRightFinal.png" alt="right arrow" class="sliderRightArrow" onclick="nextSlider()">
+            <i class="fa-solid fa-circle-arrow-left colorArrow sliderLeftArrow" onclick="prevSlider()"></i>
+            <i class="fa-solid fa-circle-arrow-right colorArrow sliderRightArrow"  onclick="nextSlider()"></i>
           </div>
       </div>
     </div>
   </div>
 </div>
 
-<footer class="page-footer" style="background-color: #212f3c;">
+
+<footer class="page-footer" style="margin-top: 100px;" >
   <div class="container">
     <div class="row">
-      <div class="col l2 sm12">
-        <div class="section" style="margin: 0%;">
+      <!-- <div class="col l2 sm12"> -->
+        <!-- <div class="section" style="margin: 0%;">
          <img height="150" width="150" src="images/dalogo.png">
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
       <div class="col l4 s12">
         <h5 class="white-text">IEEE IAS DA-IICT Student Branch Chapter</h5>
         <p class="grey-text text-lighten-4">IEEE IAS Student Branch DA-IICT (IEEE IAS SB DA-IICT) is a non-profit volunteer based organization which fosters technological innovation and excellence for the betterment of the society.</p>
@@ -202,13 +205,14 @@
   </div>
   <div class="footer-copyright">
     <div class="container">
-    Developed by <a class="orange-text text-lighten-3 devLink" href="http://github.com/Maitreyapatel" target="_blank">Maitreya</a> and <a class="orange-text text-lighten-3 devLink" href="https://github.com/rhythm-3099" target="_blank">Rhythm</a>
+      Designed by <a class="orange-text text-lighten-3 devLink" href="https://github.com/Riddhi-1510" target="_blank">Riddhi Mistry</a> 
     </div>
   </div>
   <div class="webCopyright">
-    <p> © Copyright 2018 - IEEE IAS DA-IICT</p>
+    <p> © Copyright 2024 - IEEE IAS DA-IICT</p>
   </div>
 </footer>
+
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

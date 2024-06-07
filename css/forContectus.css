@@ -1,0 +1,46 @@
+.contactus{
+    /* border:1px solid black; */
+    width: 80%;
+    margin:auto;
+}
+#map{
+    width:100%;
+    height:100%;
+    box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+    min-height: 500px;
+    /* background-color: aqua; */
+}
+.listofconn{
+    color:white;
+}
+.arreg{
+    display: flex;
+}
+.arg1{
+    /* border: 1px solid red;; */
+    width: 40%;
+}
+.arg2{
+    /* border: 1px solid black;; */
+    width: 60%;
+    padding:0px 50px ;
+}
+.contactWrapper{
+    padding: 30px;;
+}
+@media (max-width:743px) {
+    .arreg{
+        display: block;
+        margin: auto;
+    }
+    .arg1{
+        /* border: 1px solid black;; */
+        width: 100%;
+        margin: auto;
+    }
+    .arg2{
+        /* border: 1px solid black;; */
+        width: 100%;
+        padding:0px 50px ;
+    }
+}

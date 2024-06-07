@@ -1,13 +1,18 @@
+*{
+  margin:0;
+  padding:0;
+  color:white;
+}
 .eventTab{
   margin: 20px 0px;
 }
 
 .tabs .active{
-  background: #ececec!important;
+  background: lightblue!important;
 }
 
 .tabs a{
-  color: grey!important;
+  color: blue!important;
   font-weight: 500;
 }
 
@@ -22,7 +27,7 @@
 }
 
 .collapsible-header:hover{
-  background: #E2E2E2!important
+  background: lightblue!important
 }
 
 .collapsibleHeaderTitle{
@@ -36,6 +41,7 @@
 
 .boldThis{
   font-weight: bold!important;
+  color:black;
 }
 
 .arrowDown{
@@ -67,4 +73,34 @@
 
 .clicked .arrowUp{
   display: block;
+}
+
+.setfix{
+  overflow: hidden;
+  box-shadow: rgba(155, 199, 199, 0.507) 6px 2px 16px 0px, rgba(115, 189, 213, 0.525) -6px -2px 16px 0px;
+
+}
+.fontli{
+  font-weight: 900!important;
+  color: black !important;
+}
+.collapsible-body{
+  border:1px white solid;
+}
+p{
+  margin-top:20px;
+  line-height: 2rem;
+}
+.card-panel1{
+  border:1px solid aqua;
+  padding:50px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 255, 0.4);
+  box-shadow: rgba(97, 187, 194, 0.6) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+
+}
+.collapsible-body{
+  box-shadow: rgba(97, 187, 194, 0.6) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+
 }
