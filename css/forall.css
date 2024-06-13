@@ -70,6 +70,61 @@ nav{
   
 }
 
+.afterbody{
+  margin-top: 100px !important;
+}
+.card-panel{
+  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+  margin-bottom: 20px;
+}
+#sliderContent1{
+  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+  border:1px solid aqua;
+}
+.afcontainer{
+  margin-bottom: 100px;
+}
+.sliderRightArrow{
+  width: 40px ;
+  height:40px;
+  float: right;
+  color: aqua!important;
+}
+
+.colorArrow{
+  /* border:2px solid white;  */
+  color:aqua;
+  font-size: 35px;
+}
+.sliderLeftArrow{
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.white{
+  background-color: white!important;
+  color:blue!important;
+  font-weight: 700;
+}
+/* Nav bar */
+.brand-logo{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.l1{
+  box-sizing: border-box;
+  /* border:2px solid ; */
+}
+.l2{
+  box-sizing: border-box;
+  padding-right:50px;
+}
+.setLogos{
+  display: flex;
+  justify-content: space-between;
+}
+
 /*-- Stylings for overlay content --*/
 
 .overlay{

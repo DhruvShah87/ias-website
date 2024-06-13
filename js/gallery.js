@@ -1,6 +1,7 @@
 
 // Rhythm's simple slider */
 // Update by Riddhi Mistry
+// Update by Riddhi Mistry
 
 var sliderContent = document.getElementById('sliderContent');
 var imageInfo = document.getElementById('imageInfo');
