@@ -19,6 +19,15 @@
   border: none;
   outline:none;
 }
+.menuBar{
+  padding:0px 20px;
+  text-align: center;
+  font-size: 34px;
+}
+.menuBar:hover{
+	background-color: blue;
+
+}
 
 .menu:focus{
   outline:none;
@@ -86,23 +95,61 @@
   color: #212f3c;
 }
 
-.sliderRightArrow{
-  width: 40px;
-  height:40px;
-  float: right;
-}
-
-.sliderLeftArrow{
-  width: 40px;
-  height: 40px;
-  float: left;
-}
 
 .centerThisContact{
   width: 100%;
   display: block;
   margin: 0 auto!important;
   text-align: center;
+}
+
+.wrapperFunc{
+  border: 2px solid aqua;
+  padding: 0px 30px;
+  border-radius: 20px;
+  font-weight: 900;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(39, 250, 250, 0.8) -6px -2px 16px 0px;
+}
+.typed-text{
+  font-weight: 900;
+}
+#imageInfo{
+  color: rgb(0, 136, 255) !important;
+  font-size: 23px;
+}
+.colorArrow{
+  /* border:2px solid white;  */
+  color:aqua;
+  font-size: 35px;
+}
+.mtop{
+  margin-top: 100px;
+}
+.msb{
+  
+  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+  border:2px solid aqua;
+}
+.conts{
+  /* padding: 30px !important;; */
+  /* border:2px solid blue; */
+}
+.hovpera{
+  border: 2px solid aqua;
+  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+  padding:20px !important;
+}
+.light{
+  padding:20px 50px !important;
+}
+.page-footer{
+  background-color: rgb(3, 118, 139);
+  color: black !important;
+}
+.forshdw{
+  border: 2px solid aqua;
+  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+
 }
 
 /* media query */
@@ -133,9 +180,6 @@
     height: 250px;
   }
 
-  #map{
-    display: none;
-  }
 }
 
 

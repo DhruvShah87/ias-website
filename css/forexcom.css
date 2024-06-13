@@ -1,12 +1,83 @@
+
+img{
+  border-radius: 20px;
+}
+.part1{
+  /* border: 1px solid white; */
+}
+.headingforall{
+  text-align: center;
+  padding: 50px;
+  padding-top: 100px;
+  text-shadow: #FC0 1px 0 10px;
+  /* border: 1px solid white; */
+}
+.headingforall1{
+  text-align: center;
+  padding: 50px;
+  margin-top:40px; 
+  /* border: 1px solid white; */
+  text-shadow: #FC0 1px 0 10px;
+  overflow-x: hidden;
+}
+#test2{
+  overflow-x: hidden; 
+  border: 1px solid black;
+}
+.headingforall2{
+  text-align: center;
+  padding: 50px;
+  margin-top:40px; 
+  text-shadow: #FC0 1px 0 10px;
+  /* border: 1px solid white; */ 
+}
+.setimg{
+  width: 50%;
+  margin:auto;
+}
+.excommTab ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
 #mainContent{
   width: 100%;
   height: auto;
 }
-
+.eventCategory{
+  margin: auto;
+  font-size: large;
+  font-weight: 900;
+  text-align: center;
+  width: 100% !important;
+  color:blue;
+  padding:10px;
+  background-color: lightblue;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+}
+p.c {
+  word-break: break-all;
+}
+.test2{
+  border: 1px solid wheat;
+}
+.autopic{
+  border: 1px solid white;
+}
+.mauto{
+  margin: auto;
+}
+.textwhite{
+  color:white;
+}
 .memberWrapper{
   width: 50%;
   float: left;
   margin: 15px 0px;
+  
 }
 
 .centerThis{
@@ -20,6 +91,9 @@
   margin: 4px auto;
   border: 1px solid #acacac;
   border-radius: 10px;
+  padding-top:50px;
+  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+
 }
 
 .memberCard h4{
@@ -40,6 +114,12 @@
   font-weight: 500;
 }
 
+/* Ensure the image fits well within the centerset div */
+.centerset img {
+  width: 200px;
+  height: 250px;
+  
+}
 .memberCard img{
   display: block;
   margin: 0 auto;
@@ -85,6 +165,7 @@
 .page-footer{
   clear: both!important;
 }
+
 
 @media (max-width: 800px) {
   .memberCard h4{

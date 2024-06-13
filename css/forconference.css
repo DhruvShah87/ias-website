@@ -2,11 +2,12 @@
   margin: 20px 0px;
 }
 
+
 .tabs .active{
-  background: #ececec!important;
+  background: lightblue!important;
 }
 
 .tabs a{
-  color: grey!important;
+  color: blue!important;
   font-weight: 500;
 }
