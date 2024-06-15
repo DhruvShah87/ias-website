@@ -25,6 +25,11 @@
 .menu:focus{
   outline:none;
 }
+.card-panel{
+  border-style:inset;
+  border-color:rgb(52, 140, 169);
+  border-width: 6px;
+}
 
 .topNavLinks{
   color:white!important;
