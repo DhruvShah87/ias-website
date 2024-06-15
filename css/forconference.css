@@ -1,13 +1,15 @@
 .conferenceTab{
   margin: 20px 0px;
 }
-
-
 .tabs .active{
-  background: lightblue!important;
+  background: rgb(27, 164, 209)!important;
+  color: white!important;
 }
-
+.borderset{
+  background-color: lightblue !important;
+}
 .tabs a{
   color: blue!important;
   font-weight: 500;
+  font-size: 17px!important;
 }

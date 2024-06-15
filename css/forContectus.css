@@ -6,15 +6,27 @@
 #map{
     width:100%;
     height:100%;
-    box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
-    min-height: 500px;
+    min-height:400px;
     /* background-color: aqua; */
 }
+
+.addstl{
+    display: flex;
+}
+@media (max-width:475px) {
+    .addstl{
+        display: inline-block;
+    }
+    .line2{
+        display: none;
+    }
+}
 .listofconn{
-    color:white;
+    color:black;
 }
 .arreg{
     display: flex;
+    margin-bottom: 90px;
 }
 .arg1{
     /* border: 1px solid red;; */
@@ -23,10 +35,10 @@
 .arg2{
     /* border: 1px solid black;; */
     width: 60%;
-    padding:0px 50px ;
+    padding:0px 20px ;
 }
 .contactWrapper{
-    padding: 30px;;
+    padding: 10px;;
 }
 @media (max-width:743px) {
     .arreg{

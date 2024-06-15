@@ -1,3 +1,4 @@
+
 .topNavyblueDiv{
   min-height: 80px!important;
 }
@@ -19,15 +20,7 @@
   border: none;
   outline:none;
 }
-.menuBar{
-  padding:0px 20px;
-  text-align: center;
-  font-size: 34px;
-}
-.menuBar:hover{
-	background-color: blue;
 
-}
 
 .menu:focus{
   outline:none;
@@ -94,6 +87,10 @@
   font-weight: bold;
   color: #212f3c;
 }
+#imageInfo span{
+  border-bottom: black 2px solid;
+
+}
 
 
 .centerThisContact{
@@ -104,11 +101,11 @@
 }
 
 .wrapperFunc{
-  border: 2px solid aqua;
+  /* border: 2px solid aqua; */
   padding: 0px 30px;
   border-radius: 20px;
   font-weight: 900;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(39, 250, 250, 0.8) -6px -2px 16px 0px;
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(39, 250, 250, 0.8) -6px -2px 16px 0px; */
 }
 .typed-text{
   font-weight: 900;
@@ -119,7 +116,7 @@
 }
 .colorArrow{
   /* border:2px solid white;  */
-  color:aqua;
+  /* color:aqua; */
   font-size: 35px;
 }
 .mtop{
@@ -127,30 +124,39 @@
 }
 .msb{
   
-  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
-  border:2px solid aqua;
+  /* box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px; */
+  /* border:2px solid aqua; */
 }
 .conts{
-  /* padding: 30px !important;; */
-  /* border:2px solid blue; */
+  line-height: 30px;
 }
-.hovpera{
-  border: 2px solid aqua;
-  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
-  padding:20px !important;
+.conts h5{
+  color: #0609ad;
+  font-weight: bold;
+}
+.conts p{
+  color: #2193FC;
+  font-size: 17px;
+}
+.conts .card-panel{
+  padding:30px 60px;
+}
+.lighten{
+  font-size: 17px;
 }
 .light{
-  padding:20px 50px !important;
+  /* padding:20px 50px !important; */
 }
 .page-footer{
   background-color: rgb(3, 118, 139);
   color: black !important;
 }
 .forshdw{
-  border: 2px solid aqua;
-  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+  /* border: 2px solid aqua; */
+  /* box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px; */
 
 }
+
 
 /* media query */
 @media (max-width: 620px) {

@@ -1,19 +1,23 @@
 *{
   margin:0;
   padding:0;
-  color:white;
 }
 .eventTab{
   margin: 20px 0px;
 }
 
+.borderset{
+  background-color: lightblue !important;
+}
 .tabs .active{
-  background: lightblue!important;
+  background: rgb(27, 164, 209)!important;
+  color: white!important;
 }
 
 .tabs a{
   color: blue!important;
   font-weight: 500;
+  font-size: 17px!important;
 }
 
 .arrowOpen{
@@ -77,7 +81,7 @@
 
 .setfix{
   overflow: hidden;
-  box-shadow: rgba(155, 199, 199, 0.507) 6px 2px 16px 0px, rgba(115, 189, 213, 0.525) -6px -2px 16px 0px;
+  /* box-shadow: rgba(155, 199, 199, 0.507) 6px 2px 16px 0px, rgba(115, 189, 213, 0.525) -6px -2px 16px 0px; */
 
 }
 .fontli{
@@ -92,15 +96,11 @@ p{
   line-height: 2rem;
 }
 .card-panel1{
-  border:1px solid aqua;
+  /* border:1px solid aqua; */
   padding:50px;
   text-align: center;
   margin-bottom: 50px;
-  background-color: rgba(0, 0, 255, 0.4);
-  box-shadow: rgba(97, 187, 194, 0.6) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
-
-}
-.collapsible-body{
-  box-shadow: rgba(97, 187, 194, 0.6) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+  background-color: lightsteelblue;
+  /* box-shadow: rgba(97, 187, 194, 0.6) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px; */
 
 }

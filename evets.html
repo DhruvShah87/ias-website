@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body style="font-family: Raleway;">
   <!-- For the animation when the top left burger is clicked -->
@@ -145,7 +147,7 @@
       <a href="#" data-activates="nav-mobile" class="blue button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav> -->
-  <nav class="white lighten-1" role="navigation" style="margin-top: 0;">
+  <nav class="white lighten-1"role="navigation" >
     <div class="nav-wrapper">
       <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
@@ -203,10 +205,10 @@
       
       <div class="setLogos" >
         <div class="left leftside hide-on-med-and-down " >
-          <img src="images/daisa.png"style="position: relative;top:-25px ;left:-18px; width: 160px; height: 110px ;" alt="jl">
+          <img src="images/daisa.png" class="daias" alt="jl">
         </div>
         <div>
-          <ul class="left hide-on-med-and-down ">
+          <ul class="left hide-on-med-and-down mainul">
             <li><a href="index.html"  class="blue-text">Home</a></li>
             <li><a href="evets.html"  class="blue-text">Events</a></li>
             <li><a href="achievements.html"  class="blue-text">Achievements</a></li>
@@ -216,12 +218,12 @@
             <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown7">More about IAS<i class="material-icons right">arrow_drop_down</i></a></li>
           </ul>
         </div>
-        <div class="left hide-on-med-and-down imgsetprob" style="width: 9%;display: flex;flex-direction: row; justify-content: space-around;">
+        <div class="left hide-on-med-and-down imgsetprob" >
           <div >
-          <img class="hide-on-med-and-down right ieeelogo"  style=" " src="images/ieeesb.png">
+            <a href="http://ieee.daiict.ac.in/ieee2023/"><img class="hide-on-med-and-down right ieeelogo"  src="images/ieeesb.png"></a>
         </div>            
         <div class="showing">
-        <img  src="images/ias-logo.png" style="width: 170px; height: 50px;" class="left l2 ">
+        <img  src="images/ias-logo.png" class="iasi" class="left l2 ">
         </div>          
       </div>
       </div>
@@ -245,7 +247,8 @@
         <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown1">More about IAS<i class="material-icons right">arrow_drop_down</i>
           
       </ul>
-      <a href="#" data-activates="nav-mobile" class="blue button-collapse"><i class="material-icons menuBar">menu</i></a>
+      <a href="#" data-activates="nav-mobile"class="blue button-collapse" ><i class="menuBar fa-solid fa-bars"></i></a>
+      <!-- <a href="#" data-activates="nav-mobile" class="blue button-collapse"><i class="menuBar"></i></a>material-icons -->
     </div>
   </nav>
 
@@ -253,7 +256,7 @@
 
   <div class="row afterbody" >
     <div class="col s12 eventTab ">
-      <ul class="tabs setfix ">
+      <ul class="tabs setfix borderset ">
         <li class="tab col s6 eventCategory"><a  class="active fontli" href="#test2">Past Events</a></li>
         <li class="tab col s6 eventCategory"><a class=" fontli"href="#test1">Upcoming events</a></li>
       </ul>
@@ -327,9 +330,9 @@
                   <p>
                                         
                     The panel featured 3 distinguished speakers:
-                    Rutvik Kothari, a software engineer at Google who was previously associated with Sprinklr. He was an ICPC finalist in the year 2020. 
-                    Abhin Kakkad, who holds the position of Senior Product Manager at Orient Electric. He has pursued an MBA from IIM Ahmedabad and is the founder of <span style="color:blue">'Originating Ideas'</span>, a blog specializing in management and business topics. 
-                    Kunjal Rupala, who is currently a Product Manager at Zelthy and has been the co-founder of Pegasus Automation, a pioneering startup focused on transforming home automation services.
+                    <a href="https://www.linkedin.com/in/rutvik-kothari-95b935171/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in">Rutvik Kothari</a>, a software engineer at Google who was previously associated with Sprinklr. He was an ICPC finalist in the year 2020. 
+                    <a href="https://www.linkedin.com/in/abhin-kakkad/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in">Abhin Kakkad</a>, who holds the position of Senior Product Manager at Orient Electric. He has pursued an MBA from IIM Ahmedabad and is the founder of <span style="color:blue"><a href="https://originatingideas.wordpress.com/blog-2/">'Originating Ideas'</a></span>, a blog specializing in management and business topics. 
+                    <a href="https://www.linkedin.com/in/kunjalrupala/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in">Kunjal Rupala</a>, who is currently a Product Manager at Zelthy and has been the co-founder of Pegasus Automation, a pioneering startup focused on transforming home automation services.
 
                   </p>
                   <p>
@@ -351,6 +354,13 @@
                   <p>
                     IEEE IAS DA-IICT Student Branch Chapter organised Think Tank on 24th August 2023.
                   </p>
+                  <p>
+                    Think Tank is an Ideathon organised by IAS IEEE DA-IICT SBC in which students work in teams to propose solutions to industry relevant problems.
+                  </p>
+                  <p>
+                    The Event was held on 24th August 2023 from 6:00 PM to 11:00 PM at Lecture Theatre 2 of DA-IICT. Participants had to form teams of size 4 or 5 and register themselves to the team from 5:30 PM onwards which was followed by the inaugural and problem statement choosing phase. The teams had to select one problem from the given 5 options.
+                  </p>
+                  <p>Students had to submit a report of their proposed solution of the problem with a predefined section and format explained to them. The event was judged by Professor Sreeja Rajendran, who discovered the top three submissions of the participants.</p>
                  
                 </div>
             </li>
@@ -361,6 +371,13 @@
                   <img src="galleryphotos/galpic3.jpeg" alt="Tachyon Img" class="responsive-img" style="width:100% ;height: 500px">
                   <p>
                     IEEE IAS DA-IICT Student Branch Chapter organised Roboclash on 11th November 2022.                  </p>
+                    <p>
+                      Roboclash is a classic robot battle event which was organised by IAS IEEE DA-IICT SBC on 11th November 2022. In this team battle, participating teams engage their robots within the 'Cage of Destruction,' aiming for victory until one robot is either immobilized or pushed out of the arena. The match is governed by a 5-minute time limit and a point-based scoring system, employed if neither robot is incapacitated or removed from the arena within the allotted time frame.
+
+                    </p>
+                    <p>
+                      The event was hosted as part of i.Fest ‘22, the Annual Technical Fest organized by IEEE SB DA-IICT, immediately following the inaugural ceremony and the Stand-Up Comedy Performance at 9:00 PM. A large crowd of over 1000 students from various colleges eagerly gathered to witness the breathtaking battle of robots.
+                    </p>
                  
                 </div>
             </li>
@@ -374,9 +391,14 @@
                     IEEE IAS DA-IICT Student Branch Chapter organised Catch The Flag on 12th November 2022.
                   </p>
                  
+                  <p>
+                    Catch the Flag is the classic cybersecurity competition in which participants have to defend their system and attack their opponent’s system and deal with bugs. Participants formed a team of a size not exceeding three. This event was hosted as part of i.Fest ‘22, the Annual Technical Fest organized by IEEE SB DA-IICT. It comprised two rounds over three days in which the first round was a prelimnary level elementary round and the final round was a tough competitions between the best teams. 
+                  </p>
                 </div>
             </li>
 
+
+            
             <li data-aos="zoom-in">
               <div class="collapsible-header notClicked" id="option2" onClick="arrowChange(this.id)"><span class="collapsibleHeaderTitle boldThis">17th June 2021, Blogathon 2.0 
 
@@ -385,6 +407,10 @@
                   
                   <p>
                     IEEE IAS DA-IICT Student Branch Chapter organised Blogathon 2.0 on 17th June 2021.
+                  </p>
+                  <p>
+                    A blogathon is a competition where participants write blog posts within a specific timeframe, centered around a particular theme or topic. In Blogathon 2.0, participants were given four themes related to current topics in the science and technology industry, from which they had to select one and write a corresponding blog post. 
+
                   </p>
                  
                 </div>
@@ -398,6 +424,9 @@
                   
                   <p>
                     IEEE IAS DA-IICT Student Branch Chapter organised Where Engineering Leads on 16th April 2021.                  </p>
+                    <p>
+                      Where Engineering Leads is a distinguished forum organized by the IEEE IAS DA-IICT SBC that brings together professionals who have pursued diverse career paths after engineering. The event was held online via the <b>Google Meet platform</b>  on April 16, 2021. The panel featured <b>x</b> distinguished speakers: The session was in a Q&A format where the host asked questions to the speakers, to which they responded. The session started with common questions directed at all the speakers, who answered one by one. Participants praised  insightful discussions and valuable networking opportunities they gained from the session making this event a successful one.
+                    </p>
                  
                 </div>
             </li>
@@ -411,6 +440,9 @@
                   
                   <p>
                     IEEE IAS DA-IICT Student Branch Chapter organised a Blogathon on 12th June 2020.                  </p>
+                    <p>
+                      A blogathon is a competition where participants write blog posts within a specific timeframe, centered around a particular theme or topic. In Blogathon, participants were given four themes related to current topics in the science and technology industry, from which they had to select one and write a corresponding blog post. 
+                    </p>
                  
                 </div>
             </li>

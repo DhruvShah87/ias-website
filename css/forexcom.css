@@ -2,8 +2,9 @@
 img{
   border-radius: 20px;
 }
-.part1{
-  /* border: 1px solid white; */
+.carddes{
+  font-size: 40px; 
+  margin-top: 0 ;
 }
 .headingforall{
   text-align: center;
@@ -22,7 +23,7 @@ img{
 }
 #test2{
   overflow-x: hidden; 
-  border: 1px solid black;
+  border: 1px solid white;
 }
 .headingforall2{
   text-align: center;
@@ -71,7 +72,7 @@ p.c {
   margin: auto;
 }
 .textwhite{
-  color:white;
+  color:black;
 }
 .memberWrapper{
   width: 50%;
@@ -89,18 +90,22 @@ p.c {
   width: 60%;
   padding: 8px;
   margin: 4px auto;
-  border: 1px solid #acacac;
+  border: 2px solid black;
   border-radius: 10px;
-  padding-top:50px;
-  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
-
+}
+.memberCard:hover{
+background-color: rgba(211, 211, 211, 0.354);
+/* transition: 000s; */
 }
 
 .memberCard h4{
   display: block;
   text-align: center;
 }
-
+.addtopm{
+  margin-top: 10px;
+  padding-top: 40px;
+}
 .excommTab{
   margin: 20px 0px;
 }
@@ -123,14 +128,10 @@ p.c {
 .memberCard img{
   display: block;
   margin: 0 auto;
-  width: 200px;
+  width: 220px;
   height: 250px;
 }
 
-.vedantPhoto{
-  width: 240px!important;
-  height: 250px!important;
-}
 
 .memberCard p{
   display: block;

@@ -151,7 +151,7 @@
   
   <!-- ==================================== NAV BAR ==================================== -->
 
-  <nav class="white lighten-1" role="navigation" style="margin-top: 0;">
+  <nav class="white lighten-1"role="navigation" >
     <div class="nav-wrapper">
       <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
@@ -209,10 +209,10 @@
       
       <div class="setLogos" >
         <div class="left leftside hide-on-med-and-down " >
-          <img src="images/daisa.png"style="position: relative;top:-25px ;left:-18px; width: 160px; height: 110px ;" alt="jl">
+          <img src="images/daisa.png" class="daias" alt="jl">
         </div>
         <div>
-          <ul class="left hide-on-med-and-down ">
+          <ul class="left hide-on-med-and-down mainul">
             <li><a href="index.html"  class="blue-text">Home</a></li>
             <li><a href="evets.html"  class="blue-text">Events</a></li>
             <li><a href="achievements.html"  class="blue-text">Achievements</a></li>
@@ -222,12 +222,12 @@
             <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown7">More about IAS<i class="material-icons right">arrow_drop_down</i></a></li>
           </ul>
         </div>
-        <div class="left hide-on-med-and-down imgsetprob" style="width: 9%;display: flex;flex-direction: row; justify-content: space-around;">
+        <div class="left hide-on-med-and-down imgsetprob" >
           <div >
-          <img class="hide-on-med-and-down right ieeelogo"  style=" " src="images/ieeesb.png">
+            <a href="http://ieee.daiict.ac.in/ieee2023/"><img class="hide-on-med-and-down right ieeelogo"  src="images/ieeesb.png"></a>
         </div>            
         <div class="showing">
-        <img  src="images/ias-logo.png" style="width: 170px; height: 50px;" class="left l2 ">
+        <img  src="images/ias-logo.png" class="iasi" class="left l2 ">
         </div>          
       </div>
       </div>
@@ -251,7 +251,8 @@
         <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown1">More about IAS<i class="material-icons right">arrow_drop_down</i>
           
       </ul>
-      <a href="#" data-activates="nav-mobile" class="blue button-collapse"><i class="material-icons menuBar">menu</i></a>
+      <a href="#" data-activates="nav-mobile"class="blue button-collapse" ><i class="menuBar fa-solid fa-bars"></i></a>
+      <!-- <a href="#" data-activates="nav-mobile" class="blue button-collapse"><i class="menuBar"></i></a>material-icons -->
     </div>
   </nav>
 
@@ -265,57 +266,35 @@
           <div id="map" data-aos="flip-down"></div>
         </div>
         <div class="arg2">
-          <div class="contactWrapper" data-aos="slide-up">
-            <h3><a href=""><i class="fa-solid fa-location-dot"></i></a>
-              <h5 class="listofconn">Location</h5>
-            </h3>
-            <!-- <span>DA-IICT, Near Indroda Circle, Gandhinagar, Gujarat, India</span> -->
-            
+          <div class="addstl">
+            <div class="contactWrapper" data-aos="slide-up">
+              <h3><a href=""><i class="fa-solid fa-location-dot"></i></a>
+                <h5 class="listofconn">Location</h5>
+              </h3>
+            </div>
+            <div class="contactWrapper" data-aos="slide-up">
+              <h3><a href="https://www.instagram.com/ias_daiict/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></h3>
+              <h5 class="listofconn">Instagram</h5>
+              
+            </div>
           </div>
-      
-          <hr  data-aos="slide-up">
-          <div class="contactWrapper" data-aos="slide-up">
-            <h3><a href="https://www.instagram.com/ias_daiict/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></h3>
-            <h5 class="listofconn">Instagram</h5>
-            
-          </div>
-          <hr  data-aos="slide-up">
-          <div class="contactWrapper" data-aos="slide-up">
-            <h3><a  href="mailto:ias@daiict.ac.in"><i class="fa-solid fa-envelope"></i></a></h3>
-            <h5 class="listofconn">Email</h5>
-            
-          </div>
-          <hr data-aos="slide-up">
-          <div class="contactWrapper" data-aos="slide-up">
-            <h3><a href="https://www.facebook.com/ieeeiasdaiict/" target="_blank"><i class="fa-brands fa-facebook"></i></a></h3>
-            <h5 class="listofconn">Facebook</h5>
-
-            <!-- https://www.facebook.com/ ieeeiasdaiict -->
-          
+          <hr  data-aos="slide-up" class="line2">
+          <div class="addstl">
+            <div class="contactWrapper" data-aos="slide-up">
+              <h3><a  href="mailto:ias@daiict.ac.in"><i class="fa-solid fa-envelope"></i></a></h3>
+              <h5 class="listofconn">Email</h5>
+              
+            </div>
+            <div class="contactWrapper" data-aos="slide-up">
+              <h3><a href="https://www.facebook.com/ieeeiasdaiict/" target="_blank"><i class="fa-brands fa-facebook"></i></a></h3>
+              <h5 class="listofconn">Facebook</h5>
+            </div>
           </div>
         </div>
       </div>
+ 
 
-      <ul id="dropdown1" class="dropdown-content" style="overflow: hidden;">
-        <li><a href="awards.html">Awards</a></li>
-        <li><a href="conferences.html">Conferences</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/membership.html" target="_blank">Join IEEE IAS</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/chapter-promotion-programs,-awards-and-contests.html" target="_blank">Chapter Promotion Programs</a></li>
-        <li><a  href="https://ias.ieee.org/chapters-membership/distinguished-lecturer-program.html" target="_blank">Distinguished Lecturer Program</a></li>
-        <li><a class="modal-trigger" href="#modal1">Why join IEEE?</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="index.html" class="blue-text">Home</a></li>
-        <li><a href="evets.html" class="blue-text">Events</a></li>
-        <li><a href="awards.html" class="blue-text">Achievements</a></li>
-        <li><a href="execomm.html" class="blue-text">ExCom</a></li>
-        <li><a href="gallery.html"  class="blue-text">Gallery</a></li>
-        <li><a href="contact.html" class="blue-text">Contact us</a></li>
-        <li><a class="dropdown-button blue-text" href="#!" data-activates="dropdown1">More about IAS<i class="material-icons right">arrow_drop_down</i>
-          
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="blue button-collapse"><i class="material-icons menuBar">menu</i></a>
+       
     </div>
   
   </div>

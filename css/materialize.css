@@ -652,7 +652,8 @@
 }
 
 .blue-text {
-  color: #2196F3 !important;
+  /* color: #2196F3 !important; */
+  color:blue;
 }
 
 .blue.lighten-5 {
@@ -2714,7 +2715,7 @@ video.responsive-video {
   float: none;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 995px) {
   .pagination {
     width: 100%;
   }
@@ -2821,7 +2822,7 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1023px) {
   .hide-on-med-and-down {
     display: none !important;
   }
@@ -2833,25 +2834,25 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
   .hide-on-med-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1022px) {
   .hide-on-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1022px) {
   .show-on-large {
     display: block !important;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
   .show-on-medium {
     display: block !important;
   }
@@ -2869,7 +2870,7 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1023px) {
   .show-on-medium-and-down {
     display: block !important;
   }
@@ -2950,7 +2951,7 @@ td, th {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1023px) {
   table.responsive-table {
     width: 100%;
     border-collapse: collapse;
@@ -3381,7 +3382,7 @@ nav ul a span.badge {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1022px) {
   .container {
     width: 70%;
   }
@@ -3844,7 +3845,7 @@ nav ul a span.badge {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1022px) {
   .row .col.l1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -4250,7 +4251,7 @@ nav .nav-wrapper {
   height: 100%;
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1022px) {
   nav a.button-collapse {
     display: none;
   }
@@ -4283,7 +4284,7 @@ nav .brand-logo.center {
           transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1023px) {
   nav .brand-logo {
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -4414,14 +4415,14 @@ nav .input-field label.active i {
 
 @media only screen and (min-width: 601px) {
   nav.nav-extended .nav-wrapper {
-    min-height: 64px;
+    min-height: 70px;
   }
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
-    line-height: 64px;
+    height: 70px;
+    line-height: 70px;
   }
   .navbar-fixed {
-    height: 64px;
+    height: 70px;
   }
 }
 
@@ -4472,7 +4473,7 @@ html {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1023px) {
   html {
     font-size: 14.5px;
   }
@@ -4932,7 +4933,7 @@ small {
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
   #toast-container {
     left: 5%;
     bottom: 7%;
@@ -4940,7 +4941,7 @@ small {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1022px) {
   #toast-container {
     top: 10%;
     right: 7%;
@@ -5083,7 +5084,7 @@ small {
   will-change: left, right;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1023px) {
   .tabs {
     display: -webkit-box;
     display: -webkit-flex;
@@ -5644,7 +5645,7 @@ button.btn-floating {
   will-change: top, opacity;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1023px) {
   .modal {
     width: 80%;
   }
@@ -6411,7 +6412,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   margin-left: 3rem;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1023px) {
   .input-field .prefix ~ input {
     width: 86%;
     width: calc(100% - 3rem);
@@ -7492,7 +7493,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav .user-view .circle,
 .side-nav .userView .circle {
-  height: 64px;
+  height: 70px;
   width: 64px;
 }
 
@@ -7536,7 +7537,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: auto;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1023px) {
   .side-nav.fixed {
     -webkit-transform: translateX(-105%);
             transform: translateX(-105%);
@@ -7618,7 +7619,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .preloader-wrapper.big {
   width: 64px;
-  height: 64px;
+  height: 70px;
 }
 
 .preloader-wrapper.active {

@@ -48,9 +48,8 @@
   height: 40px;
   float: left;
 }
-.addshdw{
-  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
-  /* border:1px solid aqua; */
+.addshdw img{
+ border-radius: 10px;
 }
 
 @media (max-width: 620px){

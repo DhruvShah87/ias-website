@@ -1,60 +1,61 @@
 /*changes by Riddhi Mistry */
-body{
-  font-family: 'PT Sans', sans-serif !important;
-  background-color: black;
+*{
+  box-sizing: border-box;
 }
-
-
+body{
+  font-family: 'PT Sans', sans-serif !important;  
+}
 .topNavyblueDiv{
-  min-height: 80px!important;
-  color: #ececec!important;
+  min-height: 90px!important; 
   
 }
-
 .afterbody{
-  margin-top: 100px !important;
+  margin-top: 50px !important;
 }
-.card-panel{
-  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
+
+.card-panel{ 
   margin-bottom: 20px;
 }
-#sliderContent1{
-  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
-  border:1px solid aqua;
-}
+ 
 .afcontainer{
   margin-bottom: 100px;
 }
 .sliderRightArrow{
   width: 40px ;
   height:40px;
-  float: right;
-  color: aqua!important;
+  float: right; 
 }
 
-.colorArrow{
-  /* border:2px solid white;  */
-  color:aqua;
+.colorArrow{ 
   font-size: 35px;
 }
 .sliderLeftArrow{
   width: 40px;
   height: 40px;
   float: left;
+  color: black!important;
 }
-.white{
-  background-color: white!important;
+.white{ 
   color:blue!important;
   font-weight: 700;
 }
 /* Nav bar */
 nav{
-  width: 100%;
+  width: 100% !important;
 }
+.nav-wrapper{
+   
+  background-color: rgba(0, 238, 255, 0.089);
+  color: white !important;
+}
+
 .brand-logo{
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
+}
+nav ul li a{
+  font-size: 17px!important;
 }
 .l1{
   box-sizing: border-box;
@@ -66,34 +67,25 @@ nav{
 }
 .setLogos{
   display: flex;
-  justify-content:flex-end;
+  justify-content:space-around !important; 
   
 }
+.lighten{
+  color: black !important;
+}
 
-.afterbody{
-  margin-top: 100px !important;
-}
-.card-panel{
-  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
-  margin-bottom: 20px;
-}
-#sliderContent1{
-  box-shadow: rgba(97, 187, 194, 0.8) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px;
-  border:1px solid aqua;
-}
+
 .afcontainer{
   margin-bottom: 100px;
 }
 .sliderRightArrow{
   width: 40px ;
   height:40px;
-  float: right;
-  color: aqua!important;
+  float: right; 
+  color: black !important;
 }
 
 .colorArrow{
-  /* border:2px solid white;  */
-  color:aqua;
   font-size: 35px;
 }
 .sliderLeftArrow{
@@ -124,6 +116,26 @@ nav{
   display: flex;
   justify-content: space-between;
 }
+nav ul a:hover{
+  background-color: rgba(95, 199, 234, 0.205)!important;
+}
+
+
+.menuBar{
+  width: 90px; 
+  text-align: center;
+  font-size: 34px; 
+  background-color: blue;
+  display: flex;
+  align-items: center; 
+  font-size: 40px;
+  color:white;
+}
+.menuBar:hover{
+	background-color: lightblue;
+}
+ 
+ 
 
 /*-- Stylings for overlay content --*/
 
@@ -461,7 +473,11 @@ nav{
     display: block;
   }
 }
-
+@media (max-width:1486px) {
+  nav ul li a{
+    font-size: 14px;
+  }
+}
 /* ============================================
     ANIMATION KEYFRAMES
    ============================================ */
@@ -597,7 +613,7 @@ nav{
 /* ============================================
     Media Querries
    ============================================ */
-@media (max-width:1052px) {
+/* @media (max-width:1052px) {
 
   .overlayNavigation li a{
     font-size: 22px;
@@ -612,22 +628,66 @@ nav{
     padding: 0px!important;
   }
 
-}
+} */
 .showing{
+  margin-top: 5px;
   display: none!important;
 }
-.ieeelogo{
-  margin-top: 0px; 
-  width: 80px; 
-  height: 50px;
-  margin-top: 5px;
+.ieeelogo{ 
+  box-sizing: border-box;
+  width: 120px!important; 
+  height: 60px;
+  margin-top: 5px;  
+  
+}
+.daias{
+  position: relative;
+  top:-30px ;
+  left:-18px; 
+  width: 190px; 
+  height: 130px ;
 }
 
-@media (min-width: 1324px) {
+.imgsetprob{
+  width: 9%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+}
+.iasi{
+  width: 160px; 
+  height: 65px; 
+  position: relative;
+  top:-7px ;
+  left:-18px;  
+
+}
+@media (max-width:1290px) {
+  .ieeelogo{ 
+    width: 80px!important; 
+    border: 1px solid ;
+    display: none;
+  }
+  .daias{
+    width: 190px!important;
+    height: 130px!important;
+    top:-30px
+  }
+  .imgsetprob{
+    display: none;
+  }
+}
+@media (min-width: 1460px) {
   .showing {
       display: inline-block !important;
       position: relative!important;
       right: -10!important;
+      top:4px;
+  }
+  .daias{
+    width: 190px!important;
+    height: 140px!important;
+    top:-35px
   }
   .imgsetprob{
     width: 30%!important;
