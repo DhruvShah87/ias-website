@@ -5478,7 +5478,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  color: rgb(67, 144, 188);
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -7394,7 +7394,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li > a {
-  color: rgba(0, 0, 0, 0.87);
+  color: blue;
   display: block;
   font-size: 14px;
   font-weight: 500;
