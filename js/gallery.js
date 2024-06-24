@@ -60,7 +60,17 @@ function nextSlider(){
 	}
 	sliderContent.innerHTML = "<img src=galleryphotos/" + imagesSlider[i] + ".jpeg>";
 	if(i==2){
-		sliderContent.innerHTML = "<img src=galleryphotos/" + imagesSlider[i] + ".jpeg" + " style='width: 50%;'>";
+		sliderContent.innerHTML = "<img src=galleryphotos/" + imagesSlider[i] + ".jpeg" + " style='width: 33%;'>";
+		if (window.innerWidth < 1400) {
+			sliderContent.classList.add('wide-image');
+		} else {
+			sliderContent.classList.remove('wide-image');
+		}
+		if (window.innerWidth < 1000) {
+			sliderContent.classList.add('wide-image1');
+		} else {
+			sliderContent.classList.remove('wide-image1');
+		}
 	}
 	imageInfo.innerHTML = picInfo[i];
 }
@@ -73,7 +83,12 @@ function prevSlider(){
 	}
 	sliderContent.innerHTML = "<img src=galleryphotos/" + imagesSlider[i] + ".jpeg>";
 	if(i==2){
-		sliderContent.innerHTML = "<img src=galleryphotos/" + imagesSlider[i] + ".jpeg" + " style='width: 50%;'>";
+		sliderContent.innerHTML = "<img src=galleryphotos/" + imagesSlider[i] + ".jpeg" + " style='width: 33%;'>";
+		if (window.innerWidth < 1400) {
+			sliderContent.classList.add('wide-image');
+		} else {
+			sliderContent.classList.remove('wide-image');
+		}
 	}
 	imageInfo.innerHTML = picInfo[i] ;
 }
