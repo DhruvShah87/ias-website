@@ -89,6 +89,11 @@ function prevSlider(){
 		} else {
 			sliderContent.classList.remove('wide-image');
 		}
+		if (window.innerWidth < 1000) {
+			sliderContent.classList.add('wide-image1');
+		} else {
+			sliderContent.classList.remove('wide-image1');
+		}
 	}
 	imageInfo.innerHTML = picInfo[i] ;
 }
