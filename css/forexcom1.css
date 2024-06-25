@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-box{
+   width: 100%; 
+   /* border: 1px solid red; */
+   padding:50px;
+   overflow: hidden;
+}
+.child{
+
+    border:1px solid black;
+    height: 450px;
+    width: 400px;
+    border-radius: 5px; 
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.childs1{
+    /* height: 400px !important; */
+}
+h4{
+    display: block;
+    text-align: center;
+    /* border: 1px solid black; */
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+}
+.setcenter{
+    margin:auto;
+    /* border: 1px solid rgb(204, 21, 21); */
+    width: 80%;
+    height: 80%;
+}
+ 
+.imgset{
+    width: 100%;
+    height: 85%;   
+    border-radius: 5px;
+}
+.imgset1{
+    width: 100%;
+    height: 85%;   
+    border-radius: 5px;   
+}
+.setcenter2{ 
+    width: 80%;
+    height: 85%;  
+    margin:auto;
+    display: flex;  
+    align-items: center;
+}
+ 
+/* .child-box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap:2%; 
+    width: fit-content; 
+    border: 1px solid red;;
+} */
+.child-box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap:2%; 
+    width: fit-content;
+    margin:auto;  
+}
+.child-box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap:2%; 
+    width: fit-content;
+    margin:auto; 
+}
+ 
+.lable{
+    color:blue; 
+}
+.lable1{ 
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.lable2{ 
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px; 
+    font-size: 25px;
+}
+ 
+@media (max-width: 1408px) {
+    .child-box1  {
+      grid-template-columns: 1fr 1fr; /* One column for smaller screens */
+    }
+    
+  }
+@media (max-width:530px) {
+     .child{ 
+        width: 325px!important;
+     }
+}
+  @media (max-width: 1200px) {
+    .child-box1  {
+      grid-template-columns: 1fr 1fr; /* One column for smaller screens */
+    }
+    .child-box2  {
+        grid-template-columns: 1fr 1fr; /* One column for smaller screens */
+      }
+    .child-box2{
+        margin-bottom: 150px; 
+    }
+  }
+@media (max-width: 808px) {
+    .child-box1,.child-box2 {
+      grid-template-columns: 1fr; /* One column for smaller screens */
+    }
+    .child-box2{
+        margin-bottom: 720px; 
+    }
+    .paddingadd{
+        margin-top:150px!important;
+    }
+  }
