@@ -1,3 +1,7 @@
+*{
+   
+    box-sizing: border-box!important;
+}
 .contactus{
     /* border:1px solid black; */
     width: 80%;
@@ -15,7 +19,12 @@
 }
 
 .addstl{
-    display: flex;
+    display: flex; 
+    overflow: hidden;
+    gap:25px;
+}
+.icon{
+    color:rgb(9,142,73);
 }
 @media (max-width:475px) {
     .addstl{
@@ -31,6 +40,7 @@
 .arreg{
     display: flex;
     margin-bottom: 90px;
+    
 }
 .arg1{ 
     width: 40%;
@@ -43,8 +53,19 @@
 }
 .contactWrapper{
     padding: 10px;;
+    border: 1px solid rgb(108, 200, 231);
+    border-style: inset;
+    border-width: 5px;
+    margin-bottom:25px;
+    background-color: rgba(59, 178, 178, 0.16);
+    /* width: 300px; */
+
 }
-@media (max-width:1220px) {
+.contactWrapper:hover{
+    background-color: rgba(59, 178, 178, 0.251);
+
+}
+@media (max-width:1380px) {
     .arreg{
         display: block;
         margin: auto; 
