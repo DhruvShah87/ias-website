@@ -12,14 +12,16 @@
 .child{
 
     border:1px solid black;
-    height: 450px;
+    height: 600px;
     width: 100%;
     border-radius: 5px; 
     margin-bottom: 30px;
     margin-right: 30px;
+    margin: auto;
 }
 .childs1{
     /* height: 400px !important; */
+    width:350px; 
 }
 h4{
     display: block;
@@ -67,14 +69,19 @@ h4{
     gap:2%; 
     width: fit-content;
     margin:auto;  
-    width: 100%; 
+    width: 100%;
+    margin-bottom: 100px;   
+    /* border:1px solid red; */
 }
 .child-box1 {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    gap:2%; 
-    width: fit-content;
-    margin:auto; 
+    gap:2%;  
+    width: 100%;
+    /* border: 12px solid black; */
+    margin:auto;  
+    
+   
 }
  
 .lable{
@@ -98,10 +105,17 @@ h4{
     margin: auto;
     margin-bottom: 50px;
 }
+.page-footer{
+    /* border: 1px solid black;
+    margin-top:100px; */
+}
 @media (max-width: 1408px) {
     .child-box1  {
-      grid-template-columns: 1fr 1fr; /* One column for smaller screens */
+      grid-template-columns: 1fr 1fr; /* One column for smaller screens */ 
     }  
+    .childs1{
+        width: 310px;
+    }
   }
 @media (max-width:530px) {
      .child{ 
@@ -119,7 +133,8 @@ h4{
         margin-bottom: 150px; 
     }
   }
-@media (max-width: 808px) {
+@media (max-width: 760px) {
+      
     .child-box1,.child-box2 {
       grid-template-columns: 1fr; /* One column for smaller screens */
     }
@@ -129,4 +144,11 @@ h4{
     .paddingadd{
         margin-top:150px!important;
     }
+  }
+
+  @media (min-width: 1600px) {
+      
+    .child-box1 {
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* One column for smaller screens */
+    } 
   }
