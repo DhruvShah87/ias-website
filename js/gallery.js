@@ -71,6 +71,9 @@ function nextSlider(){
 		} else {
 			sliderContent.classList.remove('wide-image1');
 		}
+	}else{
+		sliderContent.classList.remove('wide-image');
+		sliderContent.innerHTML = "<img src=galleryphotos/" + imagesSlider[i] + ".jpeg" + " style='width: 100%;'>";
 	}
 	imageInfo.innerHTML = picInfo[i];
 }
@@ -94,6 +97,9 @@ function prevSlider(){
 		} else {
 			sliderContent.classList.remove('wide-image1');
 		}
+	}else{
+		sliderContent.classList.remove('wide-image');
+		sliderContent.innerHTML = "<img src=galleryphotos/" + imagesSlider[i] + ".jpeg" + " style='width: 100%;'>";
 	}
 	imageInfo.innerHTML = picInfo[i] ;
 }
